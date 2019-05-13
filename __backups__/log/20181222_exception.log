@@ -1,0 +1,1 @@
+*ERROR* 	2018/12/22 - 23:45:09: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php

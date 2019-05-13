@@ -1,0 +1,2 @@
+*ERROR* 	2019/05/07 - 18:54:01: Link to database cannot be established:SQLSTATE[HY000] [1044] Access denied for user 'sundevice_psdbuser'@'localhost' to database 'sundevice_preprod_marketplace_db' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2019/05/07 - 18:54:02: Link to database cannot be established:SQLSTATE[HY000] [1044] Access denied for user 'sundevice_psdbuser'@'localhost' to database 'sundevice_preprod_marketplace_db' at line 102 in file classes/db/DbPDO.php

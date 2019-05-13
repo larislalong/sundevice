@@ -1,0 +1,36 @@
+.cdpt-top-menu{
+	position: relative;
+	float: right;
+}
+
+.cdpt-top-table{
+	background-color: #EFECCA;
+	color: #002F2F;
+}
+
+.cdpt_fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px solid;
+}
+
+.cdpt_fieldset1 { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px solid green;
+}
+
+.cdpt_title{
+	text-align: center;
+	font-style: Gras;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>paypalwithfee</name>
+	<displayName><![CDATA[PayPal avec frais]]></displayName>
+	<version><![CDATA[4.0.2]]></version>
+	<description><![CDATA[Paiement PayPal avec frais]]></description>
+	<author><![CDATA[4webs.es]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Voulez-vous vraiment désinstaller?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

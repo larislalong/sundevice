@@ -1,0 +1,328 @@
+Array
+(
+    [TOKEN] => EC-6J597712RB082943V
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2018-07-12T13:49:35Z
+    [CORRELATIONID] => c3384be3c456
+    [ACK] => SuccessWithWarning
+    [VERSION] => 204.0
+    [BUILD] => 47733884
+    [L_ERRORCODE0] => 11607
+    [L_SHORTMESSAGE0] => Duplicate Request
+    [L_LONGMESSAGE0] => A successful transaction has already been completed for this token.
+    [L_SEVERITYCODE0] => Warning
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [PAYMENTINFO_0_TRANSACTIONID] => 34392341RT524440D
+    [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+    [PAYMENTINFO_0_PAYMENTTYPE] => instant
+    [PAYMENTINFO_0_ORDERTIME] => 2018-07-12T13:43:44Z
+    [PAYMENTINFO_0_AMT] => 20.66
+    [PAYMENTINFO_0_FEEAMT] => 1.05
+    [PAYMENTINFO_0_TAXAMT] => 0.00
+    [PAYMENTINFO_0_CURRENCYCODE] => EUR
+    [PAYMENTINFO_0_PAYMENTSTATUS] => Completed
+    [PAYMENTINFO_0_PENDINGREASON] => None
+    [PAYMENTINFO_0_REASONCODE] => None
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+    [PAYMENTINFO_0_SELLERPAYPALACCOUNTID] => soporte-facilitator@4webs.es
+    [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => STVWAEGVLTYUS
+    [PAYMENTINFO_0_ERRORCODE] => 0
+    [PAYMENTINFO_0_ACK] => Success
+)
+Array
+(
+    [TOKEN] => EC-6J597712RB082943V
+    [PAYERID] => CNCJ8Z4TTZXG8
+    [PAYMENTREQUEST_0_AMT] => 20.66
+    [PAYMENTACTION] => Sale
+    [PAYMENTREQUEST_0_CURRENCYCODE] => EUR
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 20.66
+    [L_PAYMENTREQUEST_0_NAME0] => Fee
+    [L_PAYMENTREQUEST_0_DESC0] => Paypal Fee
+    [L_PAYMENTREQUEST_0_AMT0] => 0.68
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_NAME1] => Faded Short Sleeves T-shirt
+    [L_PAYMENTREQUEST_0_DESC1] => Faded short sleeves t-shirt with high neckline....
+    [L_PAYMENTREQUEST_0_AMT1] => 19.98
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+)
+Cart Object
+(
+    [id] => 
+    [id_shop_group] => 1
+    [id_shop] => 1
+    [id_address_delivery] => 9
+    [id_address_invoice] => 9
+    [id_currency] => 1
+    [id_customer] => 3
+    [id_guest] => 3
+    [id_lang] => 1
+    [recyclable] => 0
+    [gift] => 0
+    [gift_message] => 
+    [mobile_theme] => 
+    [date_add] => 
+    [secure_key] => 
+    [id_carrier] => 0
+    [date_upd] => 
+    [checkedTos] => 
+    [pictures] => 
+    [textFields] => 
+    [delivery_option] => 
+    [allow_seperated_package] => 
+    [_products:protected] => 
+    [_taxCalculationMethod:protected] => 0
+    [webserviceParameters:protected] => Array
+        (
+            [fields] => Array
+                (
+                    [id_address_delivery] => Array
+                        (
+                            [xlink_resource] => addresses
+                        )
+
+                    [id_address_invoice] => Array
+                        (
+                            [xlink_resource] => addresses
+                        )
+
+                    [id_currency] => Array
+                        (
+                            [xlink_resource] => currencies
+                        )
+
+                    [id_customer] => Array
+                        (
+                            [xlink_resource] => customers
+                        )
+
+                    [id_guest] => Array
+                        (
+                            [xlink_resource] => guests
+                        )
+
+                    [id_lang] => Array
+                        (
+                            [xlink_resource] => languages
+                        )
+
+                )
+
+            [associations] => Array
+                (
+                    [cart_rows] => Array
+                        (
+                            [resource] => cart_row
+                            [virtual_entity] => 1
+                            [fields] => Array
+                                (
+                                    [id_product] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => products
+                                        )
+
+                                    [id_product_attribute] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => combinations
+                                        )
+
+                                    [id_address_delivery] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => addresses
+                                        )
+
+                                    [quantity] => Array
+                                        (
+                                            [required] => 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [id_shop_list] => 
+    [get_shop_from_context:protected] => 1
+    [table:protected] => cart
+    [identifier:protected] => id_cart
+    [fieldsRequired:protected] => Array
+        (
+            [0] => id_currency
+            [1] => id_lang
+        )
+
+    [fieldsSize:protected] => Array
+        (
+            [secure_key] => 32
+        )
+
+    [fieldsValidate:protected] => Array
+        (
+            [id_shop_group] => isUnsignedId
+            [id_shop] => isUnsignedId
+            [id_address_delivery] => isUnsignedId
+            [id_address_invoice] => isUnsignedId
+            [id_carrier] => isUnsignedId
+            [id_currency] => isUnsignedId
+            [id_customer] => isUnsignedId
+            [id_guest] => isUnsignedId
+            [id_lang] => isUnsignedId
+            [recyclable] => isBool
+            [gift] => isBool
+            [gift_message] => isMessage
+            [mobile_theme] => isBool
+            [allow_seperated_package] => isBool
+            [date_add] => isDate
+            [date_upd] => isDate
+        )
+
+    [fieldsRequiredLang:protected] => Array
+        (
+        )
+
+    [fieldsSizeLang:protected] => Array
+        (
+        )
+
+    [fieldsValidateLang:protected] => Array
+        (
+        )
+
+    [tables:protected] => Array
+        (
+        )
+
+    [image_dir:protected] => 
+    [image_format:protected] => jpg
+    [def:protected] => Array
+        (
+            [table] => cart
+            [primary] => id_cart
+            [fields] => Array
+                (
+                    [id_shop_group] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_shop] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_address_delivery] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_address_invoice] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_carrier] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_currency] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                            [required] => 1
+                        )
+
+                    [id_customer] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_guest] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_lang] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                            [required] => 1
+                        )
+
+                    [recyclable] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [gift] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [gift_message] => Array
+                        (
+                            [type] => 3
+                            [validate] => isMessage
+                        )
+
+                    [mobile_theme] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [delivery_option] => Array
+                        (
+                            [type] => 3
+                        )
+
+                    [secure_key] => Array
+                        (
+                            [type] => 3
+                            [size] => 32
+                        )
+
+                    [allow_seperated_package] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [date_add] => Array
+                        (
+                            [type] => 5
+                            [validate] => isDate
+                        )
+
+                    [date_upd] => Array
+                        (
+                            [type] => 5
+                            [validate] => isDate
+                        )
+
+                )
+
+            [classname] => Cart
+        )
+
+    [update_fields:protected] => 
+    [force_id] => 
+)

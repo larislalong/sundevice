@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>cdprestatiket</name>
+	<displayName><![CDATA[Ticket d&#039;information du client.]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Module permettant de fournir les tickets d&#039;informations sur les produits.]]></description>
+	<author><![CDATA[cleanpresta.com]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete this module? This removes the files and tables related modules.]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

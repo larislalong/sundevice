@@ -1,0 +1,1 @@
+*ERROR* 	2018/09/10 - 06:23:47: Db->executeS() must be used only with select, show, explain or describe queries at line 638 in file classes/db/Db.php

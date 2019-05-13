@@ -1,0 +1,7 @@
+*ERROR* 	2019/03/08 - 02:50:34: Duplicate entry '80096' for key 'idp'<br /><br /><pre>
+									UPDATE sundev_product_attribute
+									SET 
+										idp = "80096", 
+										reference_smarter = "125-MED9176"
+									WHERE `id_product_attribute` = "1564"; 
+								</pre> at line 791 in file classes/db/Db.php

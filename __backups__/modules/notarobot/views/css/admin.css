@@ -1,0 +1,14 @@
+.prestasite-logo {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 70px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.prestasite-logo .devby {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    color: #333;
+}

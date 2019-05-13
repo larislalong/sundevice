@@ -1,0 +1,1068 @@
+@font-face { font-family: "helveticaneuelt-boldcond"; src: url("../fonts/helveticaneuelt-boldcond-webfont.eot"); src: url("../fonts/helveticaneuelt-boldcond-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuelt-boldcond-webfont.woff") format("woff"), url("../fonts/helveticaneuelt-boldcond-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "helveticaneuelt-light"; src: url("../fonts/helveticaneuelt-condensed-webfont.eot"); src: url("../fonts/helveticaneuelt-condensed-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuelt-condensed-webfont.woff") format("woff"), url("../fonts/helveticaneuelt-condensed-webfont.ttf") format("truetype"); font-weight: lighter; font-style: normal; }
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	outline: none !important;
+}
+html {
+	max-width: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body {
+    font: 300 15px/22px Roboto;
+    color: #2f2f2f;
+    margin: 0;
+    padding: 0;
+    -webkit-text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke: 1px transparent;
+	max-width: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+button, input, select, textarea {
+    font: 16px/normal Roboto;
+    vertical-align: middle;
+    color: #2f2f2f;
+    transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    -khtml-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+}
+input[type="text"], input[type="submit"], input[type="password"], input[maxlength="12"], input[type="button"], input[type="number"], textarea, select, button {
+    -webkit-appearance: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+input.mailalerts_oos_email {
+    border: 1px solid #999;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 7px;
+}
+#mailalert_link {
+    width: 100%;
+    white-space: normal;
+    padding: 10px 27px;
+    font-size: 15px;
+    line-height: 1.3;
+    display: block;
+    text-align: center;
+    background: #EF1E2E;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#mailalert_link:hover {
+    background: #545454;
+}
+input.qty {
+    width: 4.5em!important;
+}
+a {
+    text-decoration: none;
+    transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    -khtml-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    color: #18a6ef;
+}
+.button, .btn {
+    -webkit-border-fit: lines;
+    width: auto;
+	max-width: 350px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: 0;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    -khtml-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+}
+a.btn, button.btn span,
+a.button, button.button span {
+    display: block;
+    text-align: center;
+    border: 2px solid #e3051b;
+    background: #e3051b;
+    padding: 10px 15px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #fff;
+    transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    -khtml-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+}
+button.btn span,
+button.button span {
+    width: 100%;
+}
+button.btn span span,
+button.button span span {
+    background: 0;
+    border: 0;
+    padding: 0;
+}
+.home-product-block h4.block-title {
+    background: rgba(0, 0, 0, 0) url(https://skin.mobilesentrix.com/frontend/base/default/images/sprites/mobilesentrix.png) no-repeat scroll left -872px;
+    border-bottom: 1px solid #ededed;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding: 0 0 10px 30px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.freeshipping-by-orderprice-text {
+	float: left;
+    margin: 0;
+    line-height: 34px;
+    background: rgba(0,0,0,0) url(../img/sundevice-sprite3.png) no-repeat scroll 7px -498px;/*ms2_sprites.png*/
+    padding-left: 39px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #707070;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+.freeshipping-by-orderprice-text:hover {
+    background-position: 7px -527px;
+    color: #18a6f0;
+}
+.freeshipping-by-orderprice-text>span {
+    color: #e00f26;
+}
+.header_user_info a {
+    padding-right: 15px;
+    font-size: 12px;
+    border-right: solid 1px #CCC;
+    padding-left: 15px;
+    float: left;
+    color: #a2a2a2;
+    display: block;
+    line-height: 34px;
+}
+.header_user_info a.support {
+    background: rgba(0,0,0,0) url(../img/sundevice-sprite2.png) no-repeat scroll -4px -574px;/*sprite-2.png*/
+    padding: 0 18px 0 33px;
+    display: block;
+}
+.header_user_info a.account {
+    padding: 0 15px 0 35px;
+    background: url(../img/sundevice-sprite1.png) 15px -48px no-repeat;/*mobilesentrix.png*/
+}
+.header_user_info a.login {
+    cursor: pointer;
+    padding: 0 15px 0 33px;
+    border-right: 0 none;
+    margin-right: 0;
+    background: url(../img/sundevice-sprite1.png) 15px 12px no-repeat;
+}
+.header_user_info a.support:hover {
+    background-position: -4 -607px;
+}
+.header_user_info a.login:hover {
+    background-position: 15px -18px;
+}
+.header_user_info a.account:hover {
+    background-position: 15px -77px;
+}
+header .banner {
+    background: url(../img//bg-timer.png)!important;
+    background-size: cover!important;
+    text-align: center;
+    /* float: left; */
+    width: 100%;
+    height: 43px;
+}
+div.text-ani-text-after {
+    display: inline-block;
+    background-repeat: no-repeat;
+    /* padding-left: 18px; */
+    text-transform: uppercase;
+    float: none;
+    width: auto;
+    position: relative;
+}
+div.text-ani-text-after {
+    background-position: 0 -97px;
+    color: #28a7ec;
+    font-family: HelveticaNeueLT-BoldCond;
+    line-height: 42px;
+    font-size: 25px;
+}
+.text-ani-text-after:before {
+    /* content: "€"; */
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+div.text-ani-text span, div.text-ani-text-after span {
+    color: #fff;
+}
+div.text-ani-text-after a {
+    color: #e01327;
+}
+.searchblock .btn.button-search {
+    background: url(../img/sundevice-sprite1.png) center -351px no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 27px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 10px;
+    width: 52px;
+    border-left: solid 1px #d7d7d7;
+}
+.searchblock .btn.button-search:hover {
+    background-position: center -381px;
+}
+.searchblock #search_query_top {
+    background: #f9f9f9;
+    color: #aeaeae;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    height: 47px;
+    line-height: 40px;
+    padding: 10px 55px 10px 15px;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+#header_search,
+#header_custom_info {
+	padding-top: 15px;
+	padding-right: 0;
+}
+#header_custom_info {
+	padding-top: 32px;
+}
+#header_custom_info > div {
+    font-size: 12px;
+    color: #a2a2a2;
+    line-height: 14px;
+    border-right: solid 1px #CCC;
+    margin-right: 25px;
+    float: left;
+    min-height: 30px;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    -khtml-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    margin-right: 18px;
+}
+#header_custom_info > div.block-excusive span {
+    color: #e3051b;
+}
+#header_custom_info .block-excusive {
+    padding: 0 14px 0 37px;
+    background: url(../img/sundevice-sprite3.png) no-repeat scroll -1px -76px;
+    line-height: 15px;
+    margin-top: 11px;
+}
+#header_custom_info .block-excusive:hover {
+    background-position: -1px -117px;
+}
+#header_custom_info  .header_contact {
+    border-right: 0 none;
+    margin-right: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+#header_custom_info  .header_contact h4 {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+#header_custom_info  .header_contact h4:before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/sundevice-sprite3.png);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: -7px -307px;
+    position: relative;
+    margin-right: 8px;
+    background-size: 60px;
+	top: 4px;
+}
+#header_custom_info  .header_contact h4:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: #ccc;
+    height: 20px;
+    top: 8px;
+    left: 25px;
+}
+#header_custom_info   .header_contact .content-text span {
+    font-size: 10px;
+    margin: 0 0 25px;
+    border-top: 1px solid #ccc;
+    font-weight: 600;
+    line-height: 18px;
+	display: block;
+	font-style: normal;
+}
+.header-container.scroll-menu #header > div {
+	display: none !important;
+}
+.header-container.scroll-menu #header > div#header_menu_and_cart {
+	display: block !important;
+	height: 60px;
+}
+#header_menu_and_cart {
+    border-bottom: 5px solid #18a6f0;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+}
+#header_menu_and_cart .mp_mega_menu .menu>ul>li .custom-icon {
+    display: inline-block;
+    width: 40px;
+    background: url('../img/icon/iphone-icon2.png');
+    background-size: 100%;
+}
+#header_menu_and_cart .mp_mega_menu .menu>ul>li .custom-icon.samsung-icon {
+    background-image: url('../img/icon/samsung-icon.png');
+}
+#header_menu_and_cart .mp_mega_menu .menu>ul>li .custom-icon.iwatch-icon {
+    background-image: url('../img/icon/iwatch-icon.png');
+}
+#header_menu_and_cart .mp_mega_menu .menu>ul>li .custom-icon.ipad-icon {
+    background-image: url('../img/icon/ipad-icon.png');
+}
+#header_menu_and_cart .mp_mega_menu .menu>ul>li .custom-icon.sams.ung-icon {
+    background-image: url('../img/icon/iphone-icon.png');
+}
+.shopping_cart_header {
+    float: right;
+    margin: 0;
+}
+.megamenu_container {
+    position: relative;
+    margin-top: 0;
+    display: inline-block;
+    padding-right: 0;
+}
+.pt_custommenu .pt_menu .parentMenu a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    color: #262626;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.pt_custommenu .pt_menu .parentMenu>a {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 13px;
+    line-height: 33px;
+    height: 33px;
+    display: inline-block;
+}
+.pt_custommenu .pt_menu .parentMenu>a span {
+    color: #373737;
+    line-height: 33px;
+    height: 33px;
+    display: inline-block;
+}
+.pt_custommenu .pt_menu:hover .parentMenu>a {
+    background-color: #27a7ec;
+    border-radius: 5px 5px 0 0;
+}
+.pt_custommenu .pt_menu:hover .parentMenu>a span {
+    color: #fff;
+}
+.pt_custommenu .pt_menu .parentMenu a:after {
+	display: none !important;
+}
+.pt_custommenu .pt_menu .parentMenu {
+    padding-right: 0;
+    position: relative;
+}
+.pt_custommenu .pt_menu .popup {
+	top: 38px !important;
+}
+.shopping_cart_header .shopping_cart > a {
+    display: block;
+    font-size: 16px;
+    color: #d82e2e;
+    line-height: 33px;
+}
+.header-container.scroll-menu,
+.header-container.scroll-menu .shopping_cart_header,
+.header-container.scroll-menu #header_menu_and_cart,
+.header-container.scroll-menu .pt_custommenu .pt_menu .parentMenu>a span,
+.header-container.scroll-menu .pt_custommenu .pt_menu .parentMenu>a {
+    line-height: 50px;
+    height: 50px;
+}
+.header-container.scroll-menu .shopping_cart_header {
+    padding-top: 12px;
+}
+.header-container.scroll-menu .pt_custommenu .pt_menu .popup {
+	top: 50px !important;
+}
+#home_encart_row.row {
+    margin: 0 -4px;
+}
+#home_encart_row .home_encart_item {
+    padding: 10px 4px;
+}
+#home_encart_row .home_encart_item a {
+    display: block;
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+}
+#home-right-pub {
+    padding: 10px;
+    border: 1px solid #ededed;
+    position: relative;
+    float: right;
+    width: 371px;
+    height: 532px;
+    text-align: center;
+}
+#home-right-pub .button {
+    background: #2b8dd8 none repeat scroll 0 0;
+    border: 2px solid #2b8dd8;
+    color: #fff;
+    font-family: HelveticaNeueLT-BoldCond;
+    font-size: 18px;
+    padding: 6px 26px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    bottom: 55px
+}
+.footer-bottom {
+    border-top: solid 1px #d4d4d4;
+    background: #d4d4d4;
+    height: 49px;
+    width: 100%;
+}
+.sm-footer {
+    padding: 0;
+    margin: 0;
+    /* line-height: 48px; */
+    z-index: 999999;
+}
+ul.social-media li {
+    display: inline-block;
+    margin-right: 6px;
+    width: 30px;
+    height: 48px;
+    text-indent: -9999px;
+}
+ul.social-media li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 9px 0;
+}
+ul.sm-footer li a {
+    border-radius: 50%;
+}
+ul.social-media li.facebook a {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesentrix.gif) no-repeat;
+}
+ul.social-media li.twitter a {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesentrix.gif) -36px 0 no-repeat;
+}
+ul.social-media li.google-plus a {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesentrix.gif) -72px 0 no-repeat;
+}
+ul.social-media li.linkedin a {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesocial.png) no-repeat -6px -5px;
+}
+ul.social-media li.pinterst a {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesocial.png) no-repeat -40px -5px;
+}
+ul.social-media li.blog a {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesocial.png) no-repeat -74px -5px;
+}
+ul.social-media li.instagram a {
+    background: rgba(0, 0, 0, 0) url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesocial.png) no-repeat scroll -108px -5px;
+}
+ul.social-media li a:hover {
+    background-position-y: -42px;
+}
+ul.social-media li.instagram a:hover {
+    background: rgba(0, 0, 0, 0) url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesocial.png) no-repeat scroll -108px -42px;
+}
+ul.social-media li.blog a:hover {
+    background-position: -74px -42px;
+}
+ul.social-media li.pinterst a:hover {
+    background-position: -40px -42px;
+}
+ul.social-media li.linkedin a:hover {
+    background-position: -6px -42px;
+}
+ul.social-media li.google-plus a:hover {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesentrix.gif) -72px -35px no-repeat;
+}
+ul.social-media li.twitter a:hover {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesentrix.gif) -36px -35px no-repeat;
+}
+ul.social-media li.facebook a:hover {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/mobilesentrix.gif) 0 -35px no-repeat;
+}
+#footer-boxes-row {
+    /* float: left; */
+    width: 100%;
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/footer-bg-red.jpg) no-repeat scroll right center;
+    margin-top: 50px;
+    background-size: cover;
+}
+.footer-boxes {
+    padding: 5px 30px;
+    margin: 20px 0;
+    min-height: 210px;
+}
+.footer-boxes:nth-child(2) {
+    border-right: solid 2px #FFF;
+    border-left: solid 2px #FFF;
+    padding-bottom: 40px;
+}
+.footer-boxes h4 {
+    font-size: 22px;
+    color: #FFF;
+    display: block;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.footer-links {
+    float: left;
+    width: 45%;
+    margin: 0 2.5% 0 0;
+}
+.footer-boxes ul.footer-links li {
+    /* float: left; */
+    width: 100%;
+    margin: 0;
+    line-height: 25px;
+    display: block;
+}
+ul.footer-links li a {
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFF;
+    display: block;
+    font-weight: 600;
+    transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    padding-left: 5px;
+    display: block;
+}
+ul.footer-links li a:hover {
+    color: #FFF;
+    background: #1e7ec8;
+    transition: all 10ms ease-in-out 0s;
+    -webkit-transition: all 10ms ease-in-out 0s;
+}
+.footer-contact {
+    color: #FFF;
+    font-size: 12px;
+}
+.add-1 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    padding-left: 50px;
+    position: relative;
+}
+.add-1:before {
+    display:block;
+    content: '';
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/sprites/sprite-2.png) no-repeat scroll 0 0px;
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.add-2 {
+    font-size: 16px;
+    font-weight: 500;
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/sprites/sprite-2.png) no-repeat scroll left -32px;
+    padding-left: 50px;
+    min-height: 45px;
+    line-height: 45px;
+}
+.add-3 {
+    font-size: 15px;
+    width: 100%;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/sprites/sprite-2.png) no-repeat scroll -7px -187px;
+    margin: 0 9px 15px;
+}
+.add-3 > a {
+    color: #fff;
+    padding-left: 41px;
+}
+.call-us {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/sprites/sprite-2.png) no-repeat scroll left -113px;
+    padding: 20px 50px;
+}
+.footer-info-logo {
+    padding-top: 30px;
+    padding-bottom: 50px
+}
+.footer-info-logo a img {
+    -webkit-filter: contrast(0) brightness(100);
+    filter: contrast(0) brightness(100);
+}
+.footer-info-logo a:hover img {
+    -webkit-filter: none;
+    filter: none;
+}
+.brandcontainer-main {
+    width: 100%;
+    margin-top: 50px;
+    background: #deeff8;
+}
+.brandcontainer-main ul {
+    margin: 0;
+}
+.brandcontainer-main .container ul li {
+    padding: 20px;
+    min-height: 111px;
+    border-right: 1px solid rgba(78, 69, 69, 0.12);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.92);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.92);
+}
+.brandcontainer-main .container ul li .brand-content {
+    float: left;
+    text-transform: uppercase;
+    width: 70%;
+}
+.brandcontainer-main .container ul li .brand-content strong {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    margin-top: 6px;
+    transition: all .2s ease-out 0s;
+    -webkit-transition: all .2s ease-out 0s;
+}
+.brandcontainer-main .container ul li .brand-icon-block {
+    float: left;
+    width: 70px;
+}
+.brandcontainer-main .container ul li .brand-icon-block span.brand-icon-1 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -5px center;
+    width: 100%;
+    height: 51px;
+    float: left;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
+.brandcontainer-main .container ul li .brand-icon-block span.brand-icon-2 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -149px center;
+    width: 100%;
+    height: 51px;
+    float: left;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
+.brandcontainer-main .container ul li .brand-icon-block span.brand-icon-3 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -289px center;
+    width: 100%;
+    height: 51px;
+    float: left;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
+.brandcontainer-main .container ul li .brand-icon-block span.brand-icon-4 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -426px center;
+    width: 100%;
+    height: 51px;
+    float: left;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
+.brandcontainer-main .container ul li:hover strong {
+    color: #e3051b;
+}
+.brandcontainer-main .container ul li:hover span.brand-icon-4 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -496px center;
+    width: 100%;
+    height: 51px;
+}
+.brandcontainer-main .container ul li:hover span.brand-icon-3 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -359px center;
+    width: 100%;
+    height: 51px;
+}
+.brandcontainer-main .container ul li:hover span.brand-icon-2 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -219px center;
+    width: 100%;
+    height: 51px;
+}
+.brandcontainer-main .container ul li:hover span.brand-icon-1 {
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/brand-icon.png) repeat scroll -75px center;
+    width: 100%;
+    height: 51px;
+}
+.block-newsletter {
+    /* float: left; */
+    width: 100%;
+    min-height: 258px;
+    background: url(https://skin.mobilesentrix.com/frontend/base/default/images/newsletter-bg.jpg) center top no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.block-newsletter h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 60px;
+}
+.block-newsletter p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 800;
+    margin: 25px 0;
+}
+.block-newsletter input[type=text] {
+    display: inline-block;
+    border: 0;
+    width: 407px;
+    height: 47px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #999;
+}
+.block-newsletter input.btn {
+    background: #e3051b;
+    border: 2px solid #e3051b;
+    font-size: 16px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    height: 47px;
+    width: 210px;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.block-newsletter input.btn:hover {
+    background: 0;
+    color: #e3051b;
+}
+
+
+@media (max-width: 1199px) {
+	.header_cart {
+		top: 0;
+		right: 0;
+		z-index: 99;
+	}
+	.mp_mega_menu a.menu-mobile, .mp_simple_menu a.menu-mobile {
+		font-size: 0;
+	}
+	.menu-mobile:after {
+		font-size: 4rem;
+	}
+	.shopping_cart_header .shopping_cart a.current {
+		border-radius: 4px 4px 0 0;
+	}
+	
+	.mp_mega_menu .menu>ul>li, .mp_simple_menu .simple-menu>ul>li {
+		text-align: left;
+		position: relative;
+		height: auto;
+		background: #f0f0f0;
+	}
+	.mp_mega_menu .menu>ul>li>.menu-sub-level-1 {
+		border-top: 2px solid #f37b7c;
+		max-width: 100%;
+		position: relative;
+		top: 0;
+	}
+	/* .mp_mega_menu .menu>ul>li>a, .mp_simple_menu .simple-menu>ul>li>a { */
+		/* text-align: left; */
+	/* } */
+	.mp-icon-responsive {
+		background: none !important;
+		border: none !important;
+	}
+	.mp_mega_menu .menu-sub-level-1 .grig_items_mp>ul>li {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 15px;
+		border: none;
+	}
+	div#myNavbar {
+		padding: 10px;
+	}
+}
+@media (max-width: 1090px) {
+    .header_user_info a {
+        display: none;
+    }
+    .header_user_info a.account,
+    .header_user_info a.login {
+        display: block;
+    }
+	
+    #header_logo a {
+        display: block;
+        text-align: center;
+    }
+    #header_logo a img {
+        margin: 0 auto;
+    }
+    #header_search, #header_custom_info {
+        padding: 0;
+        width: 400px;
+    }
+    #header_custom_info {
+        padding-top: 13px;
+        height: 65px;
+        width: 280px;
+    }
+    .megamenu_container {
+        padding: 0;
+    }
+    .mp_mega_menu .menu-container {
+        padding: 0;
+    }
+    #header_menu_and_cart .mp_mega_menu .menu>ul>li .custom-icon {
+        width: 25px;
+        height: 25px;
+        /* left: -10px; */
+        bottom: -5px;
+        position: relative;
+    }
+	
+    .header_cart {
+        position: absolute;
+		
+		/*******maxime modifs - début *******/
+		
+        /*top: -150px;
+		right: -114px;*/
+		right: 0px;
+		
+		/*******maxime modifs - fin *******/	
+    }
+
+    /* .shopping_cart_header .shopping_cart a.current { */
+        /* border-radius: 0 0 4px 4px; */
+    /* } */
+}
+
+@media (max-width: 991px) {
+	.mp_mega_menu .menu>ul>li>a, .mp_simple_menu .simple-menu>ul>li>a {
+	   text-align: left;
+	}
+    .shopping_cart_header .shopping_cart a.current {
+        border-radius: 0 0 4px 4px;
+    }
+}
+
+@media (max-width: 649px) {
+	.container {
+		padding: 0;
+	}
+	.blc-filter-block-wrapper .blc-filter-block{
+		display: block;
+	}
+	#header .cart_block dl.products,
+	.top-navigation .container > div.freeshipping-by-orderprice-text,
+	#header_search, #header_custom_info,
+	header .banner,
+	#header_price_drop_notification,
+	.filter-left .filter-title1,
+	.blc-filter-block-wrapper .attributes-filter-head {
+		display: none;
+	}
+	.top-navigation .container > div,
+	.blc-filter-block-container.container,
+	.blc-filter-block-wrapper .blc-filter-block .filter-center,
+	.blc-filter-block-wrapper .blc-filter-block .filter-left {
+		max-width: 100%;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		float: none !important;
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured button {
+		max-width: 100%;
+		width: 100%;
+		display: block;
+		position: relative;
+		margin-bottom: 15px;
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured button i {
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		margin-top: -6.4px;
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured.open > .dropdown-menu {
+		max-width: 100%;
+		width: 100%;
+		display: block;
+		position: relative;
+		margin: 0;
+		margin-top: -15px;
+		padding: 10px;
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured.open > .dropdown-menu .attributes-group-item {
+		
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured.open > .dropdown-menu .attributes_label {
+		line-height: 30px;
+		width: 75%;
+		display: inline-block;
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured.open > .dropdown-menu  .up_down_attr {
+		width: 23%;
+		display: inline-block;
+		text-align: right;
+	}
+	.blc-filter-block-wrapper .blc-filter-block .filter-left.filter-featured.open > .dropdown-menu .up_down_attr span.column-sort-trigger i {
+		line-height: 30px;
+		font-size: 25px;
+		width: 20px;
+	}
+	.blc-filter-block-wrapper .filter_item_inner .filter-item {
+		background: #fff;
+	}
+	.selected-filter-title {
+		color: #fff;
+	}
+	.top-navigation .container > div.freeshipping-by-orderprice-text {
+		margin: 0 -15px;
+		padding-left: 39px !important;
+	}
+	#header_search, #header_custom_info {
+		padding: 0;
+		width: 100%;
+	}
+	.block-newsletter input{
+		width: 90% !important;
+		margin: 0 !important;
+		margin-bottom: 15px !important;
+	}
+	.call-us {
+		padding-right: 0;
+		letter-spacing: -1px;
+	}
+	.footer-boxes {
+		padding: 5px 30px !important;
+		margin: 20px 0;
+		min-height: 210px !important;
+		height: auto;
+		float: none !important;
+		border: none !important;
+	}
+	.footer-boxes h4,
+	.payment_logo a,
+	.copyright p,
+	ul.social-media {
+		text-align: center;
+	}
+	.payment_logo img {
+		float: none !important;
+		margin: 10px auto;
+	}
+	ul.footer-links {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.box-info-product #quantity_wanted_p ,
+	.box-info-product #pQuantityAvailable ,
+	.box-info-product .box-cart-bottom ,
+	.box-info-product .content_prices ,
+	.box-info-product {
+		display: block;
+	}
+	#header .cart_block {
+		right: 0;
+	}
+	#order-detail-content #cart_summary td.cart_quantity > .cart_quantity_button a {
+		margin-right: 0px;
+		float: left;
+		background: none;
+	}
+	.cart_voucher fieldset #discount_name {
+		float: left;
+		width: 180px;
+		margin-right: 11px;
+		height: 45px;
+	}
+	ul.footer_links li,
+	.cart_navigation .button-medium {
+		float: none;
+		margin: 0;
+		margin-left: 0 !important;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		display: block;
+		width: 100%;
+	}
+	#block-history {
+		overflow-x: auto;
+	}
+}

@@ -1,0 +1,294 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>1</id_posstaticblock>
+		<identify>cms_footer1</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	
+	<block>
+		<id_posstaticblock>2</id_posstaticblock>
+		<identify>cms_footer2</identify>
+		<hook_position>blockFooter2</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	
+	<block>
+		<id_posstaticblock>3</id_posstaticblock>
+		<identify>payment</identify>
+		<hook_position>blockFooter3</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	
+	<block>
+		<id_posstaticblock>4</id_posstaticblock>
+		<identify>cms_footer3</identify>
+		<hook_position>blockFooter4</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	
+	<block>
+		<id_posstaticblock>5</id_posstaticblock>
+		<identify>copyright</identify>
+		<hook_position>blockFooter4</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	
+<!-- block language configuration -->	
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Cms Footer 1</title>
+		<description>
+			 <![CDATA[
+				<div class="footer_top">
+				<div class="box_row">
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-plane.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">free shipping worldwide</span> <span class="txt2">On order over $150 - 7 days a week</span></p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-headphone.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">24/7 customer service</span> <span class="txt2">Call us 24/7 at 000 - 123 - 456</span></p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-rotate.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">money back guaratee!</span> <span class="txt2">Send within 30 days</span></p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-cog.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">Shopping Guide</span> <span class="txt2">Quis Eum Iure Reprehenderit</span></p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Cms Footer 2</title>
+		<description>
+			 <![CDATA[
+				<div class="shop_desc"><img src="/posthemes/pos_ruby/img/cms/ft_logo.png" alt="" class="img-responsive" /> <span class="desc">Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</span></div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Payment Logo</title>
+		<description>
+			 <![CDATA[
+				<div class="payment_logo"><a href="#"> <img src="/posthemes/pos_ruby/img/cms/payment.png" alt="" class="img-responsive" /> </a></div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Cms Footer 3</title>
+		<description>
+			 <![CDATA[
+				<div class="footer_bottom">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="12-clothing"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_01.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="16-man"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_02.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="17-woman"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_03.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="18-kid"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_04.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>5</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Copyright</title>
+		<description>
+			 <![CDATA[
+				<div class="copyright">
+					<p>Copyright © 2016 <a href="http://posthemes.com/" class="_blank hl">Posthemes</a>. All Rights Reserved</p>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<!-- language2 -->	
+	
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Cms Footer 1</title>
+		<description>
+			 <![CDATA[
+				<div class="footer_top">
+				<div class="box_row">
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-plane.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">free shipping worldwide</span> <span class="txt2">On order over $150 - 7 days a week</span></p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-headphone.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">24/7 customer service</span> <span class="txt2">Call us 24/7 at 000 - 123 - 456</span></p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-rotate.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">money back guaratee!</span> <span class="txt2">Send within 30 days</span></p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 box_col">
+				<div class="box_out">
+				<div class="box_in"><img src="/posthemes/pos_ruby/img/cms/icon-cog.jpg" alt="" class="img-responsive" />
+				<p class="txt"><span class="txt1 fontcustom1">Shopping Guide</span> <span class="txt2">Quis Eum Iure Reprehenderit</span></p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Cms Footer 2</title>
+		<description>
+			 <![CDATA[
+				<div class="shop_desc"><img src="/posthemes/pos_ruby/img/cms/ft_logo.png" alt="" class="img-responsive" /> <span class="desc">Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</span></div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Payment Logo</title>
+		<description>
+			 <![CDATA[
+				<div class="payment_logo"><a href="#"> <img src="/posthemes/pos_ruby/img/cms/payment.png" alt="" class="img-responsive" /> </a></div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Cms Footer 3</title>
+		<description>
+			 <![CDATA[
+				<div class="footer_bottom">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="12-clothing"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_01.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="16-man"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_02.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="17-woman"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_03.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="row"><a href="18-kid"> <img src="/posthemes/pos_ruby/img/cms/layout1/insta_04.jpg" alt="" class="img-responsive" /> </a></div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	<block_language>
+		<id_posstaticblock>5</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Copyright</title>
+		<description>
+			 <![CDATA[
+				<div class="copyright">
+					<p>Copyright © 2016 <a href="http://posthemes.com/" class="_blank hl">Posthemes</a>. All Rights Reserved</p>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>5</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+</pos_static_blocks>

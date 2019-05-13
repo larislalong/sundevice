@@ -1,0 +1,16 @@
+
+[{shop_url}] 
+
+Ticket sur un produit de la boutique {shop_name} 
+
+ADRESSE E-MAIL DU CLIENT : {email}
+
+MESSAGE DU CLIENT : {message}
+
+PRODUIT : {product_name} 
+
+PIÈCE JOINTE : {attached_file}
+
+{shop_name} [{shop_url}] propulsé par
+PrestaShop(tm) [http://www.prestashop.com/] 
+

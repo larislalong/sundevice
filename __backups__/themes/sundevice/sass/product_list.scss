@@ -1,0 +1,90 @@
+@import "compass";
+@import "theme_variables";
+
+ul.product_list.product_content{
+	overflow: hidden;
+	padding-bottom: 30px;
+	&.grid{
+		.item .right-block .hook-reviews-right, .item .right-block .product-desc{
+			display: none;
+		}
+		@media (min-width: 640px) and (max-width: $screen-xs-max){
+			.ajax_block_product{
+				float: left;
+				width: 50%;
+			}
+		}
+	}
+	&.list{
+		.item{
+			background: $light-background;
+			padding: 0;
+			text-align: initial;
+			@include box-shadow(0 0 0 0 #fff !important);
+			.left-block{
+				text-align: center;
+				.hook-reviews{
+					display: none;
+				}
+			}
+			.right-block{
+				background: $light-background;
+				padding: 0;
+				&:before{
+					display: none;
+				}
+				h5 a.product-name{
+					font-size: 16px;
+					line-height: 19px;
+				}
+				.manufacturer_name{
+					margin-top: 11px;
+				}
+				.hook-reviews-right{
+					overflow: hidden;
+					margin-top: 11px;
+					.comments_note{
+						display: block;
+						float: left;
+					}
+					.nb-comments{
+						display: block;
+						float: left;
+						margin-left: 15px;
+						padding-left: 15px;
+						border-left: 1px solid $dark-color;
+						color: $dark-color;
+					}
+				}
+				.price-box{
+					margin-top: 30px;
+					span{
+						margin: 0 15px 0 0;
+						font-size: 17px;
+						line-height: 27px;
+						&:last-child{
+							margin: 0;
+						}
+						&.price{
+							font-size: 24px;
+						}
+						&.old-price{
+							@include transform(translateY(2px));
+						}
+					}
+				}
+				.product-desc{
+					margin: 25px 0 0;
+					padding: 17px 0 0;
+					border-top: 1px solid #ebebeb;
+					font-size: 14px;
+					line-height: 24px;
+					font-style: italic;
+				}
+				.ajax_add_to_cart_button{
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+}

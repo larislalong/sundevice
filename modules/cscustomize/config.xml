@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>cscustomize</name>
+	<displayName><![CDATA[Customize your text bloc]]></displayName>
+	<version><![CDATA[1]]></version>
+	<description><![CDATA[Ce module vous permet d&#039;ajouter du contenu texte sur votre site ou que vous le voulez. Sur vos factures, etc]]></description>
+	<author><![CDATA[Fozeu Takoudjou]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[La désinstallation de ce module supprimera toutes les données de la database. Vous pouvez sauvegarder vos données avant désinstallation. Souhaitez-vous continuer la déinstallation du module?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

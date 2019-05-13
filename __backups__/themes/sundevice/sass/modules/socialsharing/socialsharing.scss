@@ -1,0 +1,46 @@
+@import "compass";
+@import "theme_variables";
+
+#product .socialsharing_product{
+	overflow: hidden;
+	margin-top: 15px;
+	label{
+		float: left;
+		line-height: 37px;
+		text-transform: uppercase;
+		font-style: normal;
+		margin: 5px 15px 0 0;
+	}
+	.btn-default{
+		overflow: hidden;
+		@include transition(all 500ms ease);
+		text-align: center;
+		border: 2px solid #e1e1e1;
+		float: left;
+		color: #898989;
+		padding: 0;
+		margin: 5px 15px 0 0;
+		@include border-radius(100%);
+		i{
+			font-size: 14px;
+			display: block;
+			float: left;
+			line-height: 33px;
+			color: inherit;
+			min-width: 33px;
+			text-align: center;
+		}
+		span{
+			display: block;
+			float: left;
+			color: $light-text-color;
+			font-size: 0;
+			line-height: 33px;
+			font-weight: 700;
+			@include transition(all 500ms ease);
+		}
+		&:hover{
+			color: $light-text-color;
+		}
+	}
+}

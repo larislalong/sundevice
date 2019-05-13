@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{notarobot}prestashop>notarobot_863ddfbe3ed3ba348c3ba4e18b52b0fe'] = 'Анти-спам: reCAPTCHA и черный список';
+$_MODULE['<{notarobot}prestashop>notarobot_2325b9a279d188f174152e709cff32cb'] = 'Анти-спам модуль';
+$_MODULE['<{notarobot}prestashop>notarobot_f38f5974cdc23279ffe6d203641a8bdf'] = 'Настройки сохранены.';
+$_MODULE['<{notarobot}prestashop>notarobot_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
+$_MODULE['<{notarobot}prestashop>notarobot_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{notarobot}prestashop>notarobot_13061eab480b136bc1fef881eaaac775'] = 'Ключ reCAPTCHA';
+$_MODULE['<{notarobot}prestashop>notarobot_b5ce0ba304913194f3a442a829b8c9c5'] = 'Секретный ключ reCAPTCHA';
+$_MODULE['<{notarobot}prestashop>notarobot_f2b7f74d68c96a3e2f6560824378f034'] = 'Тема reCAPTCHA';
+$_MODULE['<{notarobot}prestashop>notarobot_9914a0ce04a7b7b6a8e39bec55064b82'] = 'Светлая';
+$_MODULE['<{notarobot}prestashop>notarobot_a18366b217ebf811ad1886e4f4f865b2'] = 'Темная';
+$_MODULE['<{notarobot}prestashop>notarobot_4590500bda2e272b8d2fd7b9e227f33f'] = 'Размер reCAPTCHA';
+$_MODULE['<{notarobot}prestashop>notarobot_960b44c579bc2f6818d2daaf9e4c16f0'] = 'Обычный';
+$_MODULE['<{notarobot}prestashop>notarobot_b1fe2c2a59e883740e7ea87667e44a24'] = 'Компактный';
+$_MODULE['<{notarobot}prestashop>notarobot_e9916a69a6737f14f23bdf0873f9fbfa'] = 'Черный список по email адресам / доменам';
+$_MODULE['<{notarobot}prestashop>notarobot_b1674e94f8b7ba5bbb1c5e299c72542e'] = 'Блокировать сообщения с указанных адресов и доменов.';
+$_MODULE['<{notarobot}prestashop>notarobot_7f17b60803bc7d17657dc7123798cbb5'] = 'По одному на строку. Например: test.com, test@test.com';
+$_MODULE['<{notarobot}prestashop>notarobot_090ddceb1ece4d02eb26ec2b08abf8af'] = 'Пользовательский CSS';
+$_MODULE['<{notarobot}prestashop>notarobot_00837df0aad2a0617ce324b293771a96'] = 'Добавьте ваши стили в это поле вместо редактирования файлов';
+$_MODULE['<{notarobot}prestashop>dev_by_2dbc5f4285ac7f6a5dd7df194bc3b18a'] = 'Разработано';
+$_MODULE['<{notarobot}prestashop>get_recaptcha_75d23da30ef35125df55cf38ded82c30'] = 'Ключи reCAPTCHA';
+$_MODULE['<{notarobot}prestashop>get_recaptcha_2a304a1348456ccd2234cd71a81bd338'] = 'ссылка';
+$_MODULE['<{notarobot}prestashop>pro_features_07d63d81b6dab4409b5ab28dd12a244f'] = 'PRO версия';
+$_MODULE['<{notarobot}prestashop>pro_features_a7dd12b1dab17d25467b0b0a4c8d4a92'] = 'показать';
+$_MODULE['<{notarobot}prestashop>pro_features_c07ac27246c372fcb4d3d4d4e00083ad'] = 'Купите PRO версию этого модуля и получите дополнительные возможности';
+$_MODULE['<{notarobot}prestashop>pro_features_90b6388613a512ab7890bf6d6c006062'] = 'Анти-спам: reCAPTCHA и черный список PRO';
+$_MODULE['<{notarobot}prestashop>pro_features_b6c1146243e57f7b0cd147ed0ebf3d05'] = 'Купите [1]PRO версию[/1] этого модуля и получите дополнительные возможности';
+$_MODULE['<{notarobot}prestashop>pro_features_3f690e1140f688dce08a4c6a47ff726c'] = 'Невидимая reCAPTCHA';
+$_MODULE['<{notarobot}prestashop>pro_features_a725d947096ed4c762a5b03ef061685e'] = 'Черный список для содержимого сообщений';

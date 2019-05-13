@@ -1,0 +1,114 @@
+@import "compass";
+@import "theme_variables";
+.searchblock {
+	float: right;
+	position: relative;
+	margin: 18px 20px 16px 0;
+	@media (max-width: $screen-xs-max){
+		float: none;
+		margin: 30px 10px 0;
+		display: inline-block;
+	}
+	a.icon_top{
+		display: block;
+		font-size: 16px;
+		color: $dark-color;
+		line-height: 19px;
+		i{
+			display: block;
+			@include transform(scale(-1,1));
+		}
+		&:hover, &.active{
+			color: $main-color;
+		}
+	}
+	.toogle_content{
+		display: none;
+		overflow: hidden;
+		position: absolute;
+		z-index: 9;
+		top: 30px;
+		right: 0;
+		@include box-shadow(5px 5px 7px 0px rgba(0,0,0,0.04));
+		background: $light-background;
+		width: 270px;
+		@media (max-width: $screen-xs-max){
+			right: -115px;
+		}
+	}
+	.btn.button-search {
+		background: transparent;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: none;
+		color: $dark-color;
+		width: 50px;
+		text-align: center;
+		border-left: $main-border;
+		padding: 10px 0 11px 0;
+		span {
+			display: none;
+		}
+		&:before {
+			content: "\f002";
+			display: block;
+			font-family: $font-icon;
+			font-size: 17px;
+			width: 100%;
+			text-align: center;
+		}
+		&:hover {
+			color: $main-color;
+		}
+	}
+	#search_query_top {
+		display: inline;
+		padding: 13px 60px 13px 13px;
+		height: 45px;
+		background: $light-background;
+		border: 1px solid rgba(0,0,0,0.04);
+		margin-right: 1px;
+	}
+}
+
+.ac_results {
+	background: $light-background;
+	border: 1px solid $base-border-color;
+	width: 271px;
+	margin-top: -1px;
+	li {
+		padding: 0 10px;
+		font-weight: normal;
+		color: #686666;
+		font-size: 13px;
+		line-height: 22px;
+		&.ac_odd {
+			background: $light-background;
+		}
+		&:hover, &.ac_over {
+			background: $base-box-bg;
+		}
+	}
+}
+
+form#searchbox {
+	position: relative;
+	label {
+		color: $base-text-color;
+	}
+	input#search_query_block {
+		margin-right:10px;
+		max-width:222px;
+		margin-bottom:10px;
+		display:inline-block;
+		float:left;
+	}
+	.button.button-small {
+		float:left;
+		i {
+			margin-right:0;
+		}
+	}
+}

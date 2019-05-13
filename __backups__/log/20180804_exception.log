@@ -1,0 +1,1 @@
+*ERROR* 	2018/08/04 - 12:25:37: Link to database cannot be established:SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'lesatgcj_sundevice'@'@localhost' (mot de passe: OUI) at line 102 in file classes/db/DbPDO.php

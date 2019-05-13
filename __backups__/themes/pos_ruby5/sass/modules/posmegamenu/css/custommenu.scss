@@ -1,0 +1,272 @@
+@import "compass";
+@import "theme_variables";
+
+$parent-item: 19px;
+$col-width: 350px;
+$title-height: 35px;
+$menu_border: #303030;
+
+.megamenu_container {
+	position: relative;
+	margin-top: 17px;
+	display: inline-block;
+	@media (max-width: $screen-md-max){
+		clear: both;
+		margin: 0;
+		padding-top: 20px;
+	}
+	// max 767px
+	@media (max-width: $screen-xs-max) {
+		width: 100%;
+	}
+	@media (max-width: $screen-xs-max){
+		margin: 15px 0;
+		position: relative;
+		z-index: 1;
+	}
+}
+.pt_custommenu{
+	position: relative;
+	line-height: 1;
+	.pt_menu{
+		float: left;
+		.parentMenu {
+			padding-right: 35px;
+			position: relative;
+			a{
+				display: block;
+				overflow: hidden;
+				position: relative;
+				margin: 0;
+				padding: 0 0 15px;
+				line-height: $parent-item;
+				color: $dark-color;
+				text-transform: uppercase;
+				font:{
+					size: 12px;
+					weight: 700;
+				}
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					top: 25px;
+					left: 0;
+					width: 0;
+					border-bottom: 2px solid $main-color;
+					opacity: 0;
+					@include transition(all 300ms ease);
+				}
+				i{
+					font-size: 12px;
+					line-height: $parent-item;
+					float: right;
+					padding: 0 0 0 5px;
+					&:before{
+						content: "\f107";
+					}
+				}
+				@media (max-width: $screen-md-max){
+					font-size: 13px;
+				}
+			}
+		}
+		.popup{
+			position: absolute;
+			background: $light-background;
+			left: auto !important;
+			@include box-shadow(0 0 7px 0px rgba(0, 0, 0, 0.1));
+			@media (max-width: 1199px){
+				left: 0 !important;
+				width: 100% !important;
+			}
+			.block2{
+				overflow: hidden;
+				clear: both;
+				padding: 0 30px 30px;
+				.col-xs-12.col-sm-4.col-width{
+					max-width: 380px;
+					a{
+						display: block;
+						overflow: hidden;
+						img{
+							@include transition(all 300ms ease);
+						}
+						&:hover img{
+							@include filter(saturate(1.5));
+						}
+					}
+				}
+			}
+			.block1{
+				overflow: hidden;
+				float: left;
+				padding: 30px 15px;
+				@media (max-width: 1199px){
+					width: 100% !important;
+				}
+				.column{
+					float: left;
+					width: $col-width;
+					padding: 0;
+					margin: 0 15px;
+					margin-bottom: -99999px;
+					padding-bottom: 99999px;
+					@media (max-width: 1600px){
+						width: ($col-width / 1.75);
+					}
+					.itemMenuName{
+						@extend .oneline;
+						color: $dark-color;
+						line-height: $title-height;
+						text-transform: uppercase;
+						padding-bottom: 5px;
+						margin-bottom: 15px;
+						border-bottom: 1px solid #ebebeb;
+						font:{
+							weight: 700;
+							size: 12px;
+						}
+						&:hover{
+							color: $main-color;
+						}
+						&.nochild{
+							padding: 0;
+							background: none;
+							border-bottom: 0;
+							margin: 0;
+						}
+					}
+					.itemSubMenu{
+						padding: 0;
+						.itemMenuName{
+							line-height: 35px;
+							padding: 0;
+							text-transform: capitalize;
+							background: none;
+							color: #808080;
+							font-family: 'Droid Serif', serif !important;
+							border-bottom: 0;
+							margin: 0;
+							font:{
+								size: 14px;
+								weight: 400;
+								style: italic;
+							}
+							&:hover{
+								color: $main-color;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.act, &.active{
+			.parentMenu a{
+				color: $main-color;
+				&:after{
+					width: 100%;
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.pt_custommenu_mobile{
+	text-align: left;
+	position: relative;
+    z-index: 10;
+	.navbar{
+		min-height: $title-height;
+		margin: 0;
+		border: 0;
+		.navbar-inner{
+			.btn-navbar{
+				display: block;
+				color: $dark-color;
+				@extend .oneline;
+				position: relative;
+				margin: 0;
+				line-height: 35px;
+				text-transform: uppercase;
+				font:{
+					size: 14px;
+					weight: 600;
+				}
+				&:after{
+					display: block;
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: $title-height;
+					height: $title-height;
+					text-align: center;
+					color: $dark-color;
+					font:{
+						size: 15px;
+						weight: 400;
+						family: $font-icon;
+					}
+				}
+			}
+			&.navbar-inactive .btn-navbar:after{
+				content: "\f055";
+			}
+			&.navbar-active .btn-navbar:after{
+				content: "\f056";
+			}
+		}
+	}
+}
+ul#pt_custommenu_itemmobile{
+	overflow: hidden;
+	margin: 0;
+	background: #fff;
+	padding: 10px 0;
+	li{
+		cursor: pointer;
+		list-style-type: none;
+		padding: 0 20px;
+		margin: 0;
+		display: block;
+		position: relative;
+		a{
+			@extend .oneline;
+			line-height: $title-height;
+			text-transform: capitalize;
+			text-decoration: none;
+			color: $dark-color;
+			font:{
+				size: 15px;
+				weight: 700;
+			}
+			&:hover{
+				color: $main-color;
+			}
+		}
+		.grower{
+			position: absolute;
+			top: 0;
+			right: 0;
+			a:after{
+				display: block;
+				width: $title-height;
+				height: $title-height;
+				text-align: center;
+				color: $dark-color;
+				font:{
+					size: 13px;
+					weight: 400;
+					family: $font-icon;
+				}
+			}
+			&.CLOSE a:after{
+				content: "\f055";
+			}
+			&.OPEN a:after{
+				content: "\f056";
+			}
+		}
+	}
+}

@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-juin-2014, 6:42:24
+    Author     : hus
+*/
+.displaynone{
+    display: none;
+}
+.block-elt{    
+}
+.block-col-1{
+}
+.block-col-2{
+}
+.block-col-3{
+}
+.block-col-4{
+}
+.block-col-5{
+}
+.block-col-6{
+}
+
+#home-top-content {
+	overflow: hidden;
+	/*float: left;*/
+	width: 96%;
+    margin: auto;
+}
+#home-top-content ul {
+	list-style-type:none;
+	margin: 0 0 0 14px;
+}
+#home-top-content li {
+    float: left;
+    padding: 0 5px;
+}
+#home-top-content_scroll_left, #home-top-content_scroll_right {
+    border: 1px solid;
+    border-radius: 50%;
+    color: #000;
+    display: block;
+    float: left;
+    font-size: 19px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    width: 44px;    
+}
+#home-top-content_scroll_left i, #home-top-content_scroll_right i{
+    font-size: 17px;
+    position: relative;
+    right: 0;
+    top: 27%;
+}
+#home-top-content_scroll_left{left: 30px;}
+#home-top-content_scroll_right {right: 0; }
+#cscutomize-home-top {
+    margin-bottom: 20px;
+}
+#cscutomize-home-top .bx-wrapper .bx-viewport{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+#cscutomize-home-top .bx-prev, #cscutomize-home-top .bx-next{
+    display: block;
+    height: 44px;
+    position: absolute;
+    top: -1px;
+    width: 44px;
+    background: none;
+}
+#cscutomize-home-top .bx-prev::before, #cscutomize-home-top .bx-next:before{
+    content: ' ';
+}
+#cscutomize-home-top .bx-prev:hover, #cscutomize-home-top .bx-next:hover{
+    
+}
+#cscutomize-home-top .bx-prev{
+    left: -1px;
+}
+#cscutomize-home-top .bx-next{right: 0px;}
+@media (max-width: 768px) {
+    .block-elt,.footer-container #footer .block-elt.displayFooterBottom{
+    }
+    .footer-block h4.displaynone{
+        display: block;
+    }
+    .block-elt h4 {
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 13px;
+    }
+    .block-elt h4:after {
+        display: block;
+        content: "\f055";
+        font-family: "FontAwesome";
+        position: absolute;
+        right: 0;
+        top: 1px; 
+    }
+    .block-elt h4.active:after {
+        content: "\f056";
+    }
+}
+@media screen and (max-width: 600px) {
+    .block-elt,.footer-container #footer .block-elt.displayFooterBottom{
+    }
+}
+@media screen and (max-width: 420px) {
+    .block-elt,.footer-container #footer .block-elt.displayFooterBottom{
+    }
+}

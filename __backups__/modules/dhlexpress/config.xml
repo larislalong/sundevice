@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>dhlexpress</name>
+	<displayName><![CDATA[DHL Express &reg;]]></displayName>
+	<version><![CDATA[2.3.0]]></version>
+	<description><![CDATA[Integrate the official DHL Express&reg; module for Expresse Delivery in France and internationnaly]]></description>
+	<author><![CDATA[DHL]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall my module?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

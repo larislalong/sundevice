@@ -1,0 +1,380 @@
+1;100;Erreur lors de la validation de la demande XML entrante + Pas de ID du site fourni OU Aucun mot de passe fourni
+2;1000;Selon les critères de votre recherche, le ou les services demandés ne sont pas disponibles. Veuillez vérifier les données saisies pour la recherche
+3;1001;Selon les critères de votre recherche, le produit demandé n'est pas disponible
+4;1002;Selon les critères de votre recherche, il n'y a pas de données disponibles
+5;1003;Aucun service d'enlèvement prévu pour cette journée.
+6;1004;Service indisponible entre les pays d'origin et de destination
+7;1005;Colis non livré en raison de restrictions (poids, dimension, valeur, disponibilité, etc.)
+8;102;Aucune référence d'expéditeur
+9;104;Aucun No de compte expéditeur
+10;105;La date de Début est invalide. La date date doit être au format aaaa-MM-jj
+11;106;Le nombre de résultats dépasse la limite maximale autorisée par le système.
+12;107;Paramètres d'entrée incorrects ou incomplets
+13;108;Système indisponible
+14;110;Plage de date non valide
+15;111;Erreur lors de l'analyse de la demande XML
+16;112;Le type de demande n'a pas pu être identifié
+17;113;Le même service spécial ne peut pas être demandé plus d'une fois
+18;114;Le type d'emballage saisi est incorrect. Le type d'emballage peut uniquement être CP
+19;118;Le système n'a pas pu déterminer le numéro de bordereau associé à cette demande. Pour obtenir de l'aide, veuillez contacter DHL.
+20;119;Le système n'a pas pu déterminer la référence d'expéditeur associée à cette demande. Pour obtenir de l'aide, veuillez contacter DHL.
+21;123;Requête du système de profil utilisateur non disponible
+22;124;Système DCT non disponible
+23;150;Données invalides
+24;151;Champ obligatoire non valide
+25;152;Erreur : veuillez vérifier les champs obligatoires
+26;153;Erreur de récurrence
+27;154;Erreur de valeur
+28;155;Erreur, les données sont incorrectes
+29;156;Erreur: la valeur de la longueur est incorrecte
+30;157;Erreur de format
+31;158;L'expédition à partir de ce pays n'est pas possible
+32;200;Veuillez remplir le champ AWBNumber
+33;2001;Header id non valide
+34;2002;Code d'application non valide.
+35;201;Un seul expéditeur requis
+36;202;Veuillez contacter DHL pour obtenir des informations sur le No de bordereau concerné
+37;207;No de bordereau non valide
+38;208;Le No de bordereau n'existe pas. Veuillez contacter DHL
+39;209;Aucune expédition trouvée avec le No de bordereau indiqué
+40;210;Le No LP n'existe pas. Veuillez contacter DHL
+41;211;Veuillez contacter votre responsable DHL
+42;3000;Le code du pays d'expédition n'a pas pu être trouvé. Veuillez vérifier le code du pays.
+43;3001;Le code du lieu de livraison du pays n'a pas pu être trouvé, veuillez vérifier les paramètres d'emplacement du pays.
+44;3002;Le code postal d'expédition n'a pas pu être trouvé, veuillez le corriger
+45;3003;Le nom de la ville d'expédition n'a pas pu être trouvé, veuillez vérifier le nom de la ville.
+46;3004;Le code de la zone d'expédition n'a pas pu être trouvé. Veuillez le corriger
+47;3005;Le code du pays de destination n'a pu être trouvé. Veuillez vérifier le code du pays.
+48;3006;Le code postal de la zone de destination n'a pas pu être trouvé, veuillez vérifier le code postal de la zone de destination
+49;3007;Le nom de la ville de destination n'a pas pu être trouvé. Veuillez vérifier le nom de la ville de destination.
+50;3008;Le code de la zone de destination n'a pas pu être trouvé, veuillez vérifier le code de la zone de destination.
+51;3009;Le format de la date d'enlèvement est incorrect. Veuillez vérifier le format de la date.
+52;3010;Le format de l'heure d'enlèvement est incorrect. Veuillez le corriger
+53;3011;Le format des dimensions est incorrect. Veuillez vérifier le format des dimensions.
+54;3012;Le format du poids est incorrect. Veuillez vérifier le format du poids.
+55;3013;Le poids du colis ne correspond pas aux restrictions du pays sélectionné. Veuillez le vérifier
+56;3014;La hauteur du colis ne correspond pas aux restrictions du pays sélectionné. Veuillez la vérifier
+57;3015;La longueur du colis ne correspond pas aux restrictions du pays sélectionné. Veuillez la vérifier
+58;3016;La largeur / le diamètre du colis ne correspond pas aux restrictions du pays sélectionné. Veuillez vérifier
+59;3017;La valeur déclarée ne correspond pas aux restrictions du pays sélectionné. Veuillez la vérifier.
+60;3018;Le pays pour la facturation n'a pas pu être trouvé. Veuillez le corriger
+61;3019;Le code de la marchandise n'a pas pu être trouvé, veuillez vérifier le code de produit.
+62;3020;Le lieu d'expédition est incorrect. Veuillez vérifier.
+63;3021;L'emplacement de destination est incorrect. Veuillez vérifier les coordonnées.
+64;3022;Le service d'enlèvement standard n'est pas disponible pour le code postal d'expédition. Veuillez appeler votre Service Clients pour un traitement spécial de votre enlèvement.
+65;3023;La livraison standard n'est pas possible pour ce code postal. Veuillez appeler Votre Service Clients afin de bénéficier d'un traitement spécial pour votre livraison
+66;3024;Format du code postal non valide
+67;5001;Le code du pays d'expédition n'a pas pu être trouvé. Ce champ est obligatoire.
+68;5002;Le code postal d'expédition est manquant. Ce champ est obligatoire.
+69;5003;Le nom de la ville d'expédition est manquant. Le nom de la ville pour le pays sélectionné est obligatoire
+70;5004;Le code de la zone d'expédition est manquant. Pour le pays sélectionné, ce code est obligatoire.
+71;5005;Le code du pays de destination est manquant. Ce champ est obligatoire.
+72;5006;Le code postal de la zone de destination est manquant. Le code pour le pays sélectionné est obligatoire.
+73;5007;Le nom de la ville de destination est manquant. Le nom de la ville pour le pays sélectionné est obligatoire.
+74;5008;Le code de la zone de destination est manquant. Le code de la zone pour le pays sélectionné est obligatoire.
+75;5009;La date d'enlèvement est manquante. Ce champ est obligatoire.
+76;5010;L'heure d'enlèvement est manquant. Ce champ est obligatoire
+77;5011;L'unité de mesure est manquante
+78;5012;Le poids du colis est manquant. Ce champ est obligatoire.
+79;5013;Le nombre de colis est manquant
+80;5014;Le volume total de l'expédition est manquant
+81;5017;Le poids maximal du colis est manquant.
+82;5018;La hauteur maximale du colis est manquante.
+83;5019;La longueur maximale du colis est manquante.
+84;5020;La largeur / le diamètre maximal du colis est manquant.
+85;5021;La valeur déclarée est manquante
+86;5022;Le champ contenu du colis contient des valeurs erronées
+87;5023;La date d'enlèvement est passée.
+88;5024;L'unité de poids est manquante
+89;5025;Le poids maximum autorisé est de 50kg ou 110lbs.
+90;5026;Les dimensions maximum autorisées sont 118x88x120cm ou 46x35x47ins (LxlxH)
+91;5027;La valeur déclarée ne peux pas dépasser la limite pour ce pays.
+92;5028;Unité de poids inconnue
+93;5029;Unité de mesure des dimensions inconnue
+94;5031;Le poids maximal du colis est supérieur au poids total de l'expédition.
+95;5032;Symbole de devise inconnu
+96;5033;Les informations de localisation sont manquantes !
+97;5034;L'information de localisation est incorrecte. Pour les pays ayant des codes postaux, toutes les localisations doivent avoir un code postal.
+98;5035;L'information de localisation est incorrecte. Pour les pays n'ayant pas de codes postaux, toutes les localisations doivent avoir le nom d'une ville.
+99;5036;Les informations concernant le code produit local / global sont manquantes.
+100;5037;Les informations concernant le code du service en option local / global sont manquantes.
+101;5038;Le poids et/ou les dimensions ne sont pas corrects
+102;5100;Le service choisi n'est pas compatible avec ce produit
+103;5110;Service en option non applicable
+104;6000;Erreur inattendue de l'application
+105;6100;Schéma général violation de contrainte
+106;PL002;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+107;PL003;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+108;PL004;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+109;PL005;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+110;PL006;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+111;PL007;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+112;PL008;Le système de réservation est momentanément indisponible, veuillez contacter notre Service Clients pour votre demande.
+113;PLT002;Le service PLT est disponible uniquement pour les expéditions avec droits de douane. Veuillez vérifier que les champs concernant le service PLT sont corrects ou choisissez l'expédition standard. En cas de besoin, n'hésitez pas à contacter votre Service Clients DHL
+114;PLT003;Le service PLT n'est pas disponible au pays d'expédition. Veuillez contacter votre Service Clients DHL pour de plus amples renseignements ou soumettre votre demande comme expédition classique.
+115;PLT004;Vous n'êtes pas abonné au service PLT. Pour souscrire au service PLT, veuillez contacter votre support technique DHL
+116;PLT005;Le service PLT est suspendu. Veuillez contacter votre support technique DHL pour le réactiver
+117;PLT006;"Le service PLT n'est pas disponible pour l'une des 3 raisons suivantes: ce service est indisponible pour le pays expéditeur ou destinataire ; le  produit choisi n'est pas compatible avec ce service ; ou la valeur déclarée est trop importante. Veillez contacter votre Service Clients DHL pour plus d'information ou reformuler votre demande.   "
+118;PLT007;La taille totale des images a dépassé la taille maximum nécéssaire pour le service PLT. Veuillez vérifier et réessayer.
+119;PU003;Ville et/ou code postal inconnu(s), impossible de programmer l'enlèvement. Veuillez contacter notre service support technique.
+120;PU004;Numéro de compte non valide pour le service d'enlèvement
+121;PU005;Impossible de vérifier le numéro du compte
+122;PU006;Impossible de vérifier le numéro du compte. Pour programmer un enlèvement, veuillez appeler votre Service Clients
+123;PU007a;L'enlèvement ne peut PAS être programmé à cause du statut de crédit du No de compte.
+124;PU007b;L'enlèvement ne peut PAS être programmé à cause du statut de crédit du No de compte.
+125;PU008a;L'enlèvement ne peut PAS être programmé. La date d'enlèvement est passée. Veuillez corriger la date et valider votre demande d'enlèvement.
+126;PU008b;L'enlèvement ne peut PAS être programmé. La date de l'enlèvement est programmé dans plus de dix jours. Veuillez changer la date et valider.
+127;PU009;La date d'enlèvement demandée est impossible. Veuillez appeler votre Service Clients
+128;PU009a;L'enlèvement ne peut PAS être programmé. Le service d'enlèvement n'est pas disponible durant le week-end pour cette adresse. Veuillez contacter votre Service Clients DHL
+129;PU009b;L'enlèvement ne peut PAS être programmé. Le service d'enlèvement n'est pas disponible pour les horaires indiqués.  Veuillez choisir un créneau plus tôt ou contacter votre Service Clients DHL
+130;PU009c;L'enlèvement ne peut PAS être programmé. L'enlèvement est programmé pendant les jours fériés. Veuillez changer la date d'enlèvement.
+131;PU009d;L'enlèvement ne peut PAS être programmé. L'enlèvement est programmé pendant les jours fériés. Pour obtenir des informations concernant les enlèvements pendant cette période, veuillez contacter votre Service Clients DHL.
+132;PU009e;L'enlèvement ne peut PAS être programmé. L'enlèvement est programmé pendant les jours fériés. Pour obtenir des informations concernant les enlèvements pendant cette période, veuillez contacter votre Service Clients DHL.
+133;PU010a;L'enlèvement ne peut PAS être programmé. Aucun code postal n'a été trouvé pour l'enlèvement. Pour obtenir de l'aide, veuillez contacter votre Service client DHL
+134;PU010b;L'enlèvement ne peut PAS être programmé. Impossible de faire un enlèvement dans cette ville avant notre clôture. Pour obtenir de l'aide concernant les enlèvements, veuillez contacter votre Service Clients.
+135;PU011a;L'enlèvement ne peut PAS être programmé. Délai d'enlèvement trop court. Veuillez changer la date d'enlèvement ou choisir le jour suivant.
+136;PU011b;L'enlèvement ne peut PAS être programmé. Pour programmer un enlèvement dans cette zone, merci de contacter votre Service Clients DHL pour convenir un RDV.
+137;PU012;L'enlèvement ne peut PAS être programmé. L'heure d'enlèvement choisi dépasse l'heure de fermeture de cette agence. Veuillez corriger la date et valider votre demande d'enlèvement.
+138;PU012a;Malheureusement, soit l'heure que vous avez choisie pour l'enlèvement n'est pas disponible, soit le service d'enlèvement n'est pas possible pour cette expédition.
+139;PU012b;L'enlèvement ne peut PAS être programmé. L'heure d'enlèvement choisie est en dehors de nos créneaux d'enlèvement. Veuillez corriger la date
+140;PU013a;L'enlèvement ne peut PAS être programmé. L'enlèvement doit avoir lieu au moins 1 heure avant les heures de fermeture ou au plus tard au moment de la fermeture
+141;PU013b;L'enlèvement ne peut PAS être programmé. La demande d'enlèvement doit être effectuée au moins 1 heure avant les heures de fermeture.
+142;PU013c;L'heure d'enlèvement doit être supérieur à l'heure actuelle
+143;PU014;Le(s) colis dépasse(nt) la limite de poids ou de taille habituelle. Si des arrangements spéciaux sont nécessaires, DHL contactera par téléphone la personne que vous avez spécifiée.
+144;PU015;L'enlèvement ne peut PAS être programmé. Impossible de traiter la demande à cause du statut de crédit du No de compte. Pour obtenir de l'aide concernant les enlèvements, veuillez contacter votre Service Clients DHL
+145;PU016;L'enlèvement ne peut PAS être programmé. Le lieu de l'enlèvement se situe en dehors du territoire continental des États-Unis. Pour obtenir de l'aide, veuillez contacter votre Service clients DHL.
+146;PU017a;L'enlèvement ne peut PAS être programmé. Informations d'enregistrement manquantes ou invalides. Pour obtenir de l'aide, appelez notre support technique.
+147;PU017b;L'enlèvement ne peut PAS être programmé. Impossible de traiter votre transaction.  Pour obtenir de l'aide, veuillez contacter notre support technique.
+148;PU018;Service d'enlèvement actuellement indisponible. Veuillez réessayer ultérieurement. Si ce problème persiste, veuillez contacter notre support technique
+149;PU019;L'enlèvement ne peut PAS être programmé. Impossible de programmer un enlèvement pour le compte. Pour obtenir de l'aide concernant les enlèvements, veuillez contacter votre Service Clients.
+150;PU020a;L'enlèvement ne peut PAS être programmé. Impossible de programmer un enlèvement pour le compte. Pour obtenir de l'aide concernant les enlèvements, veuillez contacter votre Service Clients.
+151;PU020b;L'enlèvement ne peut PAS être programmé. Impossible de programmer un enlèvement pour le compte. Pour obtenir de l'aide concernant les enlèvements, veuillez contacter votre Service Clients.
+152;PU021;IMPORTANT! Pour des raisons de sécurité FAA, vos colis sont susceptibles d'être vérifiés par un agent DHL
+153;PU022;L'enlèvement ne peut PAS être modifié, veuillez contacter votre Service Clients DHL
+154;PU023;[PU023] Le service d'enlèvement n'est pas disponible pour cette agence, veuillez contacter notre Service Clients.
+155;PU030;Demande d'enlèvement en même temps ou avant l'heure de fermeture.
+156;PU031;Le créneau ouvrable doit être au même moment ou avant la fermeture
+157;PU032;Le créneau ouvrable doit être avant la fermeture
+158;PU033;Demande d'enlèvement avant l'heure de fermeture.
+159;PU034;Demande d'enlèvement en même temps ou avant l'heure d'enlèvement
+160;PU035;"Le créneau ouvrable doit être au même moment ou avant le ""EARLIEST TIME FROM"""
+161;PU100;L'enlèvement n'a PAS été modifié. Impossible de vérifier les informations d'enlèvement. Veuillez contacter votre Service Clients DHL.
+162;PU100a;L'enlèvement n'a PAS été modifié. Le système est momentanément indisponible. Veuillez réessayer plus tard. Si le problème persiste, merci de contacter votre Service Clients DHL.
+163;PU101;L'enlèvement n'a PAS été modifié.  Votre demande d'enlèvement a déjà été traitée. Veuillez contacter votre Service Clients
+164;PU102a;Impossible de modifier la demande d'enlèvement ! La demande a déjà été annulée
+165;PU102b;Impossible de modifier la demande d'enlèvement ! Cet enlèvement a déjà été modifié. Pour le modifier de nouveau, veuillez appeler votre Service Clients DHL
+166;PU102c;L'enlèvement n'a PAS été modifié. L'expédition peut être en cours de traitement et non modifiable. Pour plus d'informations, veuillez contacter votre Service Clients DHL.
+167;PU103;Cet enlèvement n'est PAS modifié ! La demande d'enlèvement n'a été effectuée via le service d'enlèvement. Pour modifier votre demande, veuillez contacter votre Service Clients
+168;PU104;Demande d'enlèvement NON modifiée. Les informations concernant la demande n'ont pas pu être vérifiées. Pour obtenir de l'aide, veuillez contacter votre Service Clients
+169;PU105;Demande d'enlèvement modifiée avec succès. Nouveau numéro de confirmation attribué.
+170;PU106;Enlèvement NON modifié. Demande de modification manquante ou invalide. Pour modifier l'enlèvement veuillez contacter votre Service Clients
+171;PU200;Enlèvement NON annulé. Impossible de vérifier les informations concernant l'enlèvement. Veuillez contacter votre Service Clients
+172;PU200a;L'enlèvement n'a PAS été annulé. Le système est momentanément indisponible. Veuillez réessayer plus tard. Si le problème persiste, merci de contacter votre Service Clients DHL.
+173;PU201;L'enlèvement n'a PAS été annulé. Informations d'enlèvement invalides. Pour annuler un enlèvement programmé, veuillez contacter votre Service Clients DHL
+174;PU202;L'enlèvement n'a PAS été annulé. Votre demande d'enlèvement a déjà été traitée. Veuillez contacter votre Service Clients
+175;PU203a;La demande d'enlèvement a été annulée. Aucune action requise.
+176;PU203b;Impossible d'annuler l'enlèvement. Le statut de l'enlèvement est désormais en suspens
+177;PU204;Impossible d'annuler l'enlèvement. Il ne s'agit pas d'un enlèvement programmé
+178;PU205a;Impossible d'annuler l'enlèvement. Les informations sont incorrectes. Pour annuler l'enlèvement, veuillez appeler votre Service Clients
+179;PU205b;L'enlèvement n'a PAS été annulé. Le service d'enlèvement ne peut pas traiter cette demande. Pour annuler un enlèvement programmé, veuillez contacter votre Service Clients DHL
+180;PU300;Erreur système ! Impossible de programmer d'enlèvement. Pour programmer un enlèvement, veuillez contacter votre Service Support Technique DHL
+181;PU301;Erreur système ! Impossible de programmer d'enlèvement. Pour programmer un enlèvement, veuillez contacter votre Service Support Technique DHL
+182;PU302;Erreur système ! Impossible de programmer d'enlèvement. Pour programmer un enlèvement, veuillez contacter votre Service Support Technique DHL
+183;PU303;Service d'enlèvement actuellement indisponible. Veuillez réessayer ultérieurement ou contacter notre support technique
+184;PU306;[PU306] Vous avez programmé un enlèvement en dehors des heures ouvrables. Veuillez choisir un créneau ouvrable.
+185;PU307;[PU307] Votre demande d'enlèvement n'a PAS été programmée. Les colis doivent être prêts 1 heure minimum avant la fermeture de votre entreprise et 2 heures avant pour les particuliers
+186;PU308;[PU308] votre demande d'enlèvement n'a PAS été programmée car l'horaire choisi est trop proche de la fermeture de votre bureau. Merci de changer l'horaire ou la date d'enlèvement et de valider votre demande
+187;PU901;L'enlèvement ne peut PAS être programmé. Impossible de déterminer un itinéraire.  Pour obtenir de l'aide, veuillez contacter votre Service Clients DHL.
+188;PU902;L'enlèvement n'a PAS été programmé. Derniers enlèvements indisponibles. Veuillez contacter votre Service Clients DHL.
+189;PU903;L'enlèvement ne peut pas être programmé. Session indisponible. Veuillez réessayer. Si le problème persiste, veuillez contacter votre Service Clients DHL
+190;PU904;L'enlèvement ne peut PAS être modifié, veuillez contacter votre Service Clients DHL
+191;PU905;L'enlèvement ne peut PAS être programmé. Aucune date disponible durant les jours fériés.  Pour obtenir de l'aide, veuillez contacter votre Service Clients DHL.
+192;PU908;L'enlèvement n'a PAS été annulé. Pour plus d'info, veuillez contacter votre Service Clients DHL.
+193;PU909;L'enlèvement ne peut PAS être programmé. Données de fuseau horaire indisponible. Veuillez contacter votre Service Clients DHL
+194;PU910;Le système de réservation est surchargé, veuillez réessayer plus tard.
+195;PU911;Le système de réservation est temporairement indisponible. Veuillez contacter votre Service Clients pour finaliser votre réservation
+196;PU912;Compte régional et compte pays non sychronisés.
+197;PU913;La date à laquelle vous souhaitez programmer l'enlèvement est déjà passée.
+198;PU914;Un ou plusieurs champs sont vides ou incorrects
+199;RA001;Le système n'a pas été en mesure d'estimer le tarif pour votre expédition.
+200;RA002;Impossible d'estimer le tarif avec les coordonnées données. Veuillez les corriger et valider. Appelez notre service support technique si besoin.
+201;RA003;Le système n'a pas été en mesure d'estimer les frais pour votre expédition. Pour obtenir de l'aide, veuillez contacter votre Service Clients DHL
+202;RA004;Le compte expéditeur ou facturation est incorrect ou n'est pas autorisé pour ce type de demande. Veuillez changer de compte et réessayer.
+203;RA005;Le code du pays destinataire est invalide. Veuillez contacter votre support technique.
+204;RA006;Les tarifs de votre compte ne sont pas disponibles ici. Pour obtenir vos tarifs spéciaux, veuillez contacter votre Service Commercial DHL ou appeler votre support technique.
+205;RA007;Nous ne sommes pas en mesure de desservir ce code postal. Pour obtenir de l'aide, veuillez contacter votre Service Clients DHL
+206;RA008;Impossible d'estimer le tarif pour ce pays. Veuillez contacter notre service support technique.
+207;RA009;Impossible d'estimer le tarif pour ce pays. Veuillez contacter notre service support technique.
+208;RA010;Impossible d'estimer le tarif pour ce pays. Veuillez contacter notre service support technique.
+209;RA011;Impossible d'estimer le tarif pour ce pays. Veuillez contacter notre service support technique.
+210;RA012;Le poids du colis dépasse les limites autorisés pour le pays indiqué. Veuillez contacter votre Service Clients DHL
+211;RA013;Le poids total de l'expédition dépasse la limite autorisée par le pays destinataire. Veuillez contacter votre Service Clients.
+212;RA014;Attention ! Les dimensions ou le poids peuvent nécessiter un traitement spécial ou demander un délai de livraison plus important. Veuillez contacter contacter votre Service Clients
+213;RA015;"L'expédition n'est pas acceptée pour ""Transport Collect"". Les frais d'expédition n'ont pas été déterminé. Veillez contacter votre Service Clients DHL"
+214;RA016;Le service n'est pas disponible. Veuillez nous excuser pour la gêne occasionnée et réessayer plus tard.
+215;RA017;Les services TDD/Jumbo/Junior Jumbo ne doivent pas être utilisés en conjonction avec les numéros de compte 95/96
+216;RA018;Système défaillant. Veuillez contacter votre Service Clients DHL
+217;RA019;Zone choisie incorrecte
+218;RA020;Votre compte est pas valide ou ne convient pas à cet usage.
+219;RA021;Code de produit local/global non valide
+220;RA022;Poids ou données indiquées non corrects
+221;RA023;Valeur indiquée pour l'assurance non valide
+222;RA024;Code de la devise non valide
+223;RA025;Code de facturation pour le service spécial non valide
+224;RA026;Surcharges non autorisées pour cette zone
+225;RA027;La zone n'a pas d'assurance minimum, les frais n'ont pas été calculés
+226;RA028;L'assurance n'est pas configurée dans les paramètre du système.
+227;RA029;Compte/Contrat/Assurance Produit non trouvée
+228;RA030;Surcharge non autorisée
+229;RA031;Aucune surchage produit configurée dans le compte / système
+230;RA032;Le tarif ne peut être estimé pour cette combinaison de code produit, lieux d'enlèvement et de destination
+231;RA033;La devise de l'assurance est invalide pour cette zone
+232;RA034;Le système n'a pas été en mesure d'estimer les frais pour votre expédition.
+233;RA035;Surcharge de poids non autorisée pour le secteur
+234;RA036;Format de code postal absent pour le pays.
+235;RA037;Aucune surchage configurée
+236;RA038;Aucune surcharge poids configurée
+237;RA039;Votre compte est pas valide ou ne convient pas à cet usage.
+238;RG001;Le service d'enregistrement eCom backend est temporairement indisponible. Veuillez soumettre à nouveau votre demande ultérieurement.
+239;RG002;Service d'enregistrement eCom backend - Le processus de validation de compte est temporairement indisponible. Veuillez soumettre à nouveau votre demande ultérieurement.
+240;RG003;Service d'enregistrement eCom backend - Le processus de routage est temporairement indisponible. Veuillez soumettre à nouveau votre demande ultérieurement.
+241;RG004;Echec de l'enregistrement. Les informations relatives à l'enregistrement ne sont pas complètes ou sont incorrectes. Veuillez vérifier les informations soumises et valider votre demande de nouveau.
+242;RG005;Echec de l'enregistrement. La version du logiciel ou des données est incorrecte. Veuillez contacter votre support technique DHL.
+243;RG006;Echec de l'enregistrement. Votre identifiant eCom est incorrect. Veuillez contacter votre support technique DHL.
+244;RG007;Echec de l'enregistrement. L'adresse indiquée n'existe pas aux Etats-Unis. Veuillez contacter votre support technique DHL.
+245;RG008;Echec de l'enregistrement. Code postal incorrect pour ce pays. Veuillez corriger et valider votre demande de nouveau. Si ce problème persiste veuillez contacter votre support technique DHL.
+246;RG009;Echec de l'enregistrement. Différents expéditeurs et adresses d'enlèvement ne sont pas autorisés. Veuillez corriger et valider. Si ce problème persiste veuillez contacter votre support technique DHL.
+247;RG010;Numéro de compte introuvable. Veuillez contacter votre support technique si vous avez besoin d'aide
+248;RG011;No de compte non valide. Veuillez corriger et valider à nouveau votre demande. Si ce problème persiste contactez votre Service Clients DHL
+249;RG012;No de compte non valide. Veuillez corriger et valider à nouveau votre demande. Si ce problème persiste contactez votre Service Clients DHL
+250;RG013;No de compte non valide. Veuillez corriger et valider à nouveau votre demande. Si ce problème persiste contactez votre Service Clients DHL
+251;RG014;No de compte non valide. Veuillez corriger et valider à nouveau votre demande. Si ce problème persiste contactez votre Service Clients DHL
+252;RG018;Echec de l'enregistrement. eCom site ID invalide. Veuillez contacter votre support technique DHL.
+253;RG019;Echec de l'enregistrement. Numéro de compte incorrect. Veuillez corriger et valider votre demande de nouveau. Si ce problème persiste veuillez contacter votre support technique DHL.
+254;RG020;No de compte fourni non compatible avec ce type de compte. Veuillez corriger et valider à nouveau votre demande. Si ce problème persiste, contactez votre Service Clients DHL
+255;RG021;Echec de l'enregistrement. Code postal incorrect. Veuillez vérifier le code postal et le nom de la ville. Si ce problème persiste veuillez contacter votre support technique DHL.
+256;RG022;Echec de l'enregistrement. La ville et le code postal ne correspondent pas. Veuillez corriger et valider. Si ce problème persiste, veuillez contacter votre support technique DHL.
+257;RG023;Service d'enregistrement eCom backend - Le processus de validation de compte se heurte à un problème technique. Veuillez soumettre à nouveau votre demande ultérieurement. Si ce problème persiste contactez votre Service Clients DHL
+258;RG024;Le service d'enregistrement de base de données eCom backend rencontre des difficultés techniques. Veuillez soumettre à nouveau votre demande ultérieurement. Si ce problème persiste contactez votre Service Clients DHL
+259;RG025;compte CASH non autorisé. Veuillez contacter votre Service Clients DHL
+260;RG026;eCom Site ID n'est pas en mesure de procéder à l'enregistrement. Veuillez contacter votre service support technique DHL.
+261;RG027;Echec de l'enregistrement. Le type de facturation de votre compte est incorrect. Veuillez choisir un autre compte et resoumettre votre demande, ou bien veuillez contacter votre support technique DHL.
+262;RG028;Le Site ID eCom est invalide. Veuillez contacter votre Service Clients DHL Shipment Validation- AP Region Code
+263;RT0003a;La zone de service indiquée pour la demande d'acheminement est actuellement suspendue
+264;RT0003b;La zone de service indiquée pour la demande d'acheminement est actuellement indisponible
+265;RT0003c;La zone de service indiquée pour la demande d'acheminement n'est pas encore en service
+266;RT0003d;La zone de service identifiée pour la demande d'acheminement est fermée
+267;RT0003e;La zone de service indiquée pour la demande d'acheminement a un statut inconnu
+268;RT0004;Impossible d'identifier une zone de service pour acheminer la demande. Aucune autre possibilité n'a été trouvée.
+269;RT0005;Impossible d'identifier une zone de service pour acheminer la demande. Veuillez saisir un code postal pour affiner la recherche.
+270;RT0006;Code postal non valide pour le pays en demande d'acheninement.
+271;RT0007;Le code postal n'existe pas dans le pays.
+272;RT0008;Le nom de cette ville n'existe pas pour ce pays
+273;RT0009;Plusieurs ville ont le même nom dans le pays
+274;RT0010;Plusieurs points de service disponibles dans cette ville avec différents services proposés
+275;RT0011;le code postal couvre plus d'une ville et a différentes services standards.
+276;RT0012;Nom de la ville trouvé en utilisant un algorithme de correspondance
+277;RT0013;Code postal trouvé dans le champ ville ou département du message
+278;RT0014;Code postal trouvé dans le champ adresse du message
+279;RT0015;Pays d'origine non desservi
+280;RT1001;Le secteur desservi est suspendu ou pas en fonction
+281;RT1002;Secteur desservi indisponible
+282;RT1003;Le secteur desservi n'est pas ouvert
+283;RT1004;Le secteur desservi est fermé.
+284;RT1005;Le statut du secteur desservi est inconnu
+285;RT1006;La recherche d'informations concernant le secteur desservi a échoué
+286;RT1101;Code postal non fourni par l'Utilisateur
+287;RT1102;Le code postal fourni par l'Utilisateur est incorrect
+288;RT1103;Le code postal fourni par l'Utilisateur n'existe pas dans le pays
+289;RT1104;Le nom de la ville fourni par l'utilisateur n'existe pas dans le pays.
+290;RT1105;Plusieurs villes avec le même nom ont été trouvées
+291;RT1106;Plusieurs points de service disponibles dans cette ville
+292;RT1107;Plusieurs villes trouvées avec le même code postal
+293;RT1108;Le nom de la ville fourni par l'utilisateur n'a pas de correspondance exacte
+294;RT1109;Le code postal de la ville ou du département est incorrect
+295;RT1110;Le code postal saisi est incorrect
+296;SV003;Pays destinataire non trouvé. Veuillez rectifier votre recherche et valider
+297;SV004;Pays destinataire non desservi. Veuillez rectifier votre recherche et valider
+298;SV005;DHL a une resctriction temporaire pour les expéditions vers le pays destinataire. Veuillez rectifier et valider
+299;SV006a;Il ya une interdiction temporaire concernant les envois taxables vers le pays destinataire.
+300;SV006b;Il ya une interdiction temporaire concernant les expéditions de grandes valeurs et taxables vers le pays destinataire.
+301;SV007;La taille de l'emballage ou le poids dépasse la limite autorisée pour le pays de destination.
+302;SV007a;La taille de l'emballage ou le poids dépasse la limite autorisée pour le pays de destination.
+303;SV007b;La taille ou le poids de votre envoi dépasse la limite autorisée pour le pays de destination
+304;SV008;ATTENTION : Le nombre de colis, leurs dimensions ou leurs poids, peuvent nécessiter un traitement spécial ou demander un délai de livraison plus important.
+305;SV009;ATTENTION : La valeur de votre envoi dépasse la limite autorisée pour le pays de destination et peut exiger une autorisation préalable et un délai de livraison plus important.
+306;SV010a;Le système n'a pas pu déterminer le service correspondant à l'adresse expéditeur. Veuillez vérifier le code postal et la ville expéditeur et réessayer
+307;SV010b;Le système n'a pas pu déterminer le service correspondant à l'adresse expéditeur. Veuillez vérifier le code postal et la ville expéditeur et réessayer
+308;SV010c;Le système n'a pas pu déterminer le service correspondant à l'adresse expéditeur. Veuillez vérifier le code postal et la ville expéditeur et réessayer
+309;SV010d;Attention - Itinéraire de livraison indisponible
+310;SV011a;Code postal ou ville destinataire non trouvé. Veuillez corriger vos coordonnées et valider
+311;SV011b;Le système n'a pas pu déterminer le service pour la destination. Veuillez vérifier le code postal destinataire et réessayer
+312;SV011c;Le système n'a pas pu déterminer le service correspondant à la destination. Veuillez vérifier le code postal et le pays destinataire et réessayer
+313;SV012a;Le système n'a pas pu identifier votre numéro de compte d'expédition. Veuillez le corriger et réessayer
+314;SV012b;Votre numéro de compte d'expédition ne peut pas être utilisé pour les expéditions en provenance de ce lieu. Veuillez choisir un autre compte.
+315;SV012c;Votre numéro de compte d'expédition ne peut pas être utilisé pour les expéditions en provenance de ce lieu. Veuillez choisir un autre compte.
+316;SV012d;Votre numéro de compte d'expédition ne peut pas être utilisé pour les expéditions en provenance de ce lieu. Veuillez choisir un autre compte.
+317;SV012e;Votre numéro de compte d'expédition est identifié pour être supprimé. Il ne peut être utilisé pour les expéditions en provenance de cette zone. Veuillez entrer un autre compte et valider
+318;SV012f;L'expédition n'a pas été programmée faute de crédit sur le compte d'expédition. Veuillez choisir un autre compte et valider.
+319;SV013a;Le système n'a pas pu identifier votre numéro de compte d'expéditionVeuillez le corriger et valider
+320;SV013b;Le système n'a pas pu identifier votre numéro de compte d'expédition. Veuillez le corriger et réessayer
+321;SV013c;Le système n'a pas pu identifier votre numéro de compte d'expédition. Veuillez le corriger et réessayer
+322;SV013d;Le système n'a pas pu identifier votre numéro de compte d'expédition. Veuillez le corriger et réessayer
+323;SV014a;Le système n'a pas pu identifier votre compte de facturation. Veuillez corriger le numéro de compte et réessayer.
+324;SV014b;Votre numéro de compte de facturation ne peut pas être utilisé pour les expéditions provenant de cette zone. Veuillez saisir un autre compte et valider .
+325;SV014c;Votre numéro de compte de facturation ne peut pas être utilisé pour les expéditions provenant de cette zone. Veuillez entrer un autre compte et valider
+326;SV014d;Votre numéro de compte de facturation ne peut pas être utilisé pour les expéditions provenant de cette zone. Veuillez entrer un autre compte et valider
+327;SV014e;L'expédition n'a pas été programmée faute de crédit sur le compte de facturation. Veuillez choisir un autre compte.
+328;SV015a;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+329;SV015b;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+330;SV015c;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+331;SV015d;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+332;SV016a;Le système n'a pas pu identifier votre numéro de compte droits et taxes Veuillez le corriger et valider
+333;SV016b;Votre numéro de compte de facturation de taxes ne peut pas être utilisé pour les expéditions provenant de cette zone. Veuillez entrer un autre No de compte et valider
+334;SV016c;Votre numéro compte droits et taxes ne peut pas être utilisé pour les expéditions provenant de cette zone. Veuillez entrer un autre compte et valider
+335;SV016d;L'expédition n'a pas été programmée en raison du manque de crédit sur votre compte droits et taxes. Veuillez choisir un autre compte et valider
+336;SV017a;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+337;SV017b;Le système n'a pas pu identifier votre numéro de compte de facturation. Veuillez le corriger et valider
+338;SV017c;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+339;SV017d;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+340;SV018;Le système n'est pas en mesure de programmer les expéditions en ce moment. Veuillez soumettre votre demande ultérieurement.
+341;SV019;Les droits de douane et taxes des expéditions vers cette ville dans l'adresse du destinataire ne peut pas être facturés à l'expéditeur. Veuillez changer l'option de paiement des droits et taxes et réessayez.
+342;SV021;Les livraisons vers le pays destinataire ne peuvent être facturés au compte destinataire. Veuillez changer l'option de paiement et resoumettre
+343;SV022;Votre numéro de compte de facturation est pour les livraisons internationales uniquement. Veuillez rectifier le compte ou la destination et valider
+344;SV023a;Les droits de douane et taxes à la charge du pays destinataire doivent être facturé au destinataire. Veuillez corriger l'option de paiement des droits et taxes et valider
+345;SV023b;Les droits de douane et taxes doivent être facturés aux destinataires dans la ville/le pays destinataire. Veuillez changer l'option de paiement droits et taxes et valider
+346;SV024;Le pays de destination exige que les paiements des droits et taxes soient effectués par les destinataires.Veuillez choisir l'option de paiement des droits et taxes au destinataire
+347;SV025a;"L'expédition n'est pas acceptée pour ""Transport Collect"" Frais d'expédition non déterminés. Veuillez contacter votre Service Clients"
+348;SV025b;"L'expédition n'est pas acceptée pour ""Transport Collect"" Frais d'expédition non déterminés. Veuillez contacter votre Service Clients"
+349;SV025c;"L'expédition n'est pas acceptée pour ""Transport Collect"" Frais d'expédition non déterminés. Veuillez contacter votre Service Clients"
+350;SV026;La valeur assurée de votre expédition est supérieure à 110% de la valeur déclarée. Veuillez ajuster l'assurance ou la valeur déclarée et valider
+351;SV027a;Votre date de l'expédition est déjà passée. Veuillez la changer la date et soumettre à nouveau.
+352;SV027b;Les expéditions ne peuvent pas être programmées plus de dix jours à l'avance.Veuillez soumettre à nouveau votre demande avec une date d'expédition plus récente
+353;SV028;Votre numéro de compte de facturation ne peut pas être utilisé pour les services Porte-à-Aéroport ou aéroport-à-aéroport. Veuillez sélectionner un autre service ou compte
+354;SV029;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+355;SV029a;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+356;SV029b;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+357;SV029c;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+358;SV029d;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+359;SV029e;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+360;SV029f;Le système n'a pas pu identifier votre numéro de compte de facturation Veuillez le corriger et valider
+361;SV030;La limite d'assurance n'est pas disponible pour votre pays.Veuillez contacter votre Service Clients
+362;SV031;ATTENTION : Votre compte est de type Client Cash Veuillez contacter votre conseiller(ère) du Service Clients DHL
+363;SV034a;"Désolé, notre système n'est pas en mesure d'attribuer des ""Piece ID"" à votre envoi pour le moment. Veuillez réessayer plus tard ou appeler notre Service Clients DHL."
+364;SV034b;"Désolé, il n'y a pas de ""ID Piece"" suffisantes pour être affectés à votre envoi pour le moment. Veuillez réessayer plus tard ou appeler notre Service Clients DHL."
+365;SV035;Nous ne sommes pas en mesure de desservir ce code postal. Pour obtenir de l'aide, veuillez contacter votre Service Clients DHL
+366;SV036;Votre numéro de compte expéditeur ne peut pas être utilisé pour les expéditions en provenance des États-Unis. Veuillez choisir un autre compte ou appeler votre support technique.
+367;SV037;Votre numéro de compte de facturation ne peut pas être utilisé pour les expéditions en provenance des États-Unis. Veuillez entrer un autre compte ou appeler votre support technique.
+368;SV038;Votre numéro de compte de droits et taxes ne peut pas être utilisé pour les expéditions en provenance des États-Unis. Veuillez changer de compte ou appeler votre support technique.
+369;SV039;Votre numéro de compte de facturation ne peut pas être utilisé. Veuillez entrer un autre compte ou appeler votre support technique.
+370;SV040;Votre numéro de compte de droit et taxes ne peut pas être utilisé. Veuillez changer de compte ou appeler votre support technique.
+371;SV041;Votre numéro de compte de facturation est pour la facturation internationale uniquement. Veuillez changer le compte ou la destination.
+372;SV042;Les livraisons vers le pays de destination ne peuvent pas être facturés au destinataire. Changez l'option de paiement et réessayez.
+373;SV044;La valeur assurée est supérieure à la valeur déclarée du colis. Veuillez corriger et soumettre à nouveau votre demande.
+374;SV045;Pour cette destination, votre envoi peut prendre 1 ou 2 jours de plus pour être livré
+375;SV046;Attention! Le nombre de vos colis, leurs dimensions ou leurs poids peuvent nécessiter un temps de livraison plus important ou un service sur mesure. Veuillez contacter votre Service Clients DHL
+376;SV047;La taille de l'emballage ou le poids dépasse la limite autorisée pour le pays de destination. Pour obtenir de l'aide, veuillez appeler votre support technique.
+377;SV048;Attention! La dimension ou le poids de votre colis dépasse la taille/poids autorisé. Cela peut nécessiter un temps de livraison plus important ou un service sur mesure. Veuillez contacter votre Service Clients DHL
+378;SV049;"Votre envoi n'a pas été accepté. Le poids d'un ou plusieurs ""SED Line"" dépasse la limite. Pour obtenir de l'aide, veuillez appeler votre support technique."
+379;SV050;Le code de produit n'est pas configuré pour le pays choisi. Veuillez contacter votre service technique DHL
+380;SV051;POD n'est pas disponible pour les expéditions vers le pays de destination. Veuillez décocher l'option POD et réessayer.

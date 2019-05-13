@@ -1,0 +1,15 @@
+
+[/{shop_url}] 
+
+Bonjour {firstname} {lastname}, 
+
+Votre compte sur {shop_name} a été activé par un
+administrateur. 
+
+
+Vous pouvez accéder à votre compte sur notre site Internet :
+{shop_url} 
+
+{shop_name} [/{shop_url}] réalisé avec PrestaShop(tm)
+[http://www.prestashop.com/] 
+

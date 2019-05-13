@@ -1,0 +1,36 @@
+1;AD;Livraison reportée à une date ultérieure selon demande
+2;AF;Arrivée au centre de tri DHL de
+3;AR;Arrivée à l'agence DHL de
+4;BA;"Information sur l'adresse nécessaire; contactez DHL"
+5;BN;Transitaire informé pour assurer le dédouanement
+6;BR;Envoi livré au transitaire selon demande
+7;CA;Locaux du destinataire fermés lors de la livraison
+8;CC;En attente de retrait par le destinataire conformément à votre demande
+9;CD;Dédouanement
+10;CM;Le destinataire a déménagé
+11;CR;Dédouanement accompli à
+12;CS;Merci de contacter DHL
+13;DD;Expédition livrée - Merci de contacter DHL
+14;DF;Partie de l'agence DHL de
+15;DS;Expéditeur contacté
+16;FD;Transmise à un partenaire pour livraison ou mise à disposition en point relais 
+17;HP;Expédition en attente jusqu'à réception du règlement
+18;IC;En cours de dédouanement à
+19;MC;L'expédition n'est pas arrivée à la bonne agence DHL. Envoi réacheminé.
+20;MD;Expédition arrivée tradivement en agence, livraison différée
+21;MS;L'expédition n'est pas arrivée à la bonne agence DHL. Envoi réacheminé.
+22;NH;Destinataire absent lors de la livraison.
+23;OH;Envoi en instance
+24;PU;Expédition enlevée
+25;PD;Livraison partielle
+26;PL;Traitée à l'agence DHL de
+27;WC;En cours de livraison
+28;RD;Envoi refusé par destinataire
+29;RT;Renvoi à l'expéditeur
+30;OK;Expédition livrée - Reçu signé par
+31;SC;Le service demandé a changé, merci de contacter DHL
+32;SS;Merci de contacter DHL
+33;TP;Livraison organisée. Aucun détail prévu.
+34;TR;Transféré via
+35;UD;Dédouanement
+36;SA;Expédition prise en charge

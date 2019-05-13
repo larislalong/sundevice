@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:KnownTrackingRequest xmlns:req="http://www.dhl.com">
+  <Request>
+    <ServiceHeader>
+      <MessageTime></MessageTime>
+      <MessageReference></MessageReference>
+      <SiteID></SiteID>
+      <Password></Password>
+    </ServiceHeader>
+  </Request>
+  <LanguageCode></LanguageCode>
+  <LevelOfDetails>ALL_CHECK_POINTS</LevelOfDetails>
+</req:KnownTrackingRequest>

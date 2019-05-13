@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>jmarketplace</name>
+	<displayName><![CDATA[JA Marketplace]]></displayName>
+	<version><![CDATA[5.0.0]]></version>
+	<description><![CDATA[Permettre &agrave; vos clients &agrave; vendre dans votre boutique en &eacute;change d&#039;une commission.]]></description>
+	<author><![CDATA[Jose Aguilar]]></author>
+	<tab><![CDATA[market_place]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr de vouloir désintaller ? ]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,455 @@
+Array
+(
+    [TIMESTAMP] => 2019-04-12T10:32:49Z
+    [CORRELATIONID] => e8957abd706a
+    [ACK] => Failure
+    [VERSION] => 204.0
+    [BUILD] => 52475881
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+Array
+(
+    [RETURNURL] => https://sun-device-america.com/module/paypalwithfee/validation
+    [CANCELURL] => https://sun-device-america.com/commande
+    [PAYMENTREQUEST_0_AMT] => 623.14
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_ITEMAMT] => 623.14
+    [L_PAYMENTREQUEST_0_NAME0] => Fee
+    [L_PAYMENTREQUEST_0_DESC0] => Paypal Fee
+    [L_PAYMENTREQUEST_0_AMT0] => 18.15
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_NAME1] => iPhone 8 Plus
+    [L_PAYMENTREQUEST_0_DESC1] => ...
+    [L_PAYMENTREQUEST_0_AMT1] => 601
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_NAME2] => Crystal box iPhone 8 Plus
+    [L_PAYMENTREQUEST_0_DESC2] => ...
+    [L_PAYMENTREQUEST_0_AMT2] => 3.99
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+    [L_PAYMENTREQUEST_0_NAME3] => Gift-wrapping
+    [L_PAYMENTREQUEST_0_DESC3] => Gift-wrapping...
+    [L_PAYMENTREQUEST_0_AMT3] => 0
+    [L_PAYMENTREQUEST_0_QTY3] => 1
+)
+Cart Object
+(
+    [id] => 2677
+    [id_shop_group] => 1
+    [id_shop] => 2
+    [id_address_delivery] => 173
+    [id_address_invoice] => 173
+    [id_currency] => 2
+    [id_customer] => 147
+    [id_guest] => 12723
+    [id_lang] => 2
+    [recyclable] => 0
+    [gift] => 1
+    [gift_message] => 
+    [mobile_theme] => 0
+    [date_add] => 2019-04-04 11:34:29
+    [secure_key] => d268eaf82c1b41c656aa93f0572672f0
+    [id_carrier] => 30
+    [date_upd] => 2019-04-12 12:32:45
+    [checkedTos] => 
+    [pictures] => 
+    [textFields] => 
+    [delivery_option] => a:1:{i:173;s:3:"30,";}
+    [allow_seperated_package] => 0
+    [_products:protected] => Array
+        (
+            [0] => Array
+                (
+                    [id_product_attribute] => 1021
+                    [id_product] => 72
+                    [cart_quantity] => 1
+                    [id_shop] => 2
+                    [name] => iPhone 8 Plus
+                    [is_virtual] => 0
+                    [description_short] => 
+                    [available_now] => 
+                    [available_later] => 
+                    [id_category_default] => 14
+                    [id_supplier] => 0
+                    [id_manufacturer] => 2
+                    [on_sale] => 0
+                    [ecotax] => 0.000000
+                    [additional_shipping_cost] => 0.00
+                    [available_for_order] => 1
+                    [price] => 601
+                    [active] => 1
+                    [unity] => 
+                    [unit_price_ratio] => 0.000000
+                    [quantity_available] => 15
+                    [width] => 0.000000
+                    [height] => 0.000000
+                    [depth] => 0.000000
+                    [out_of_stock] => 2
+                    [weight] => 0.29
+                    [date_add] => 2018-09-07 14:06:35
+                    [date_upd] => 2019-04-01 11:34:12
+                    [quantity] => 1
+                    [link_rewrite] => iphone-8-plus
+                    [category] => iphone
+                    [unique_id] => 00000000720000001021173
+                    [id_address_delivery] => 173
+                    [advanced_stock_management] => 1
+                    [supplier_reference] => 
+                    [customization_quantity] => 
+                    [id_customization] => 
+                    [price_attribute] => 601.000000
+                    [ecotax_attr] => 0.000000
+                    [reference] => 86-PRE1021
+                    [weight_attribute] => 0.290000
+                    [ean13] => 
+                    [upc] => 
+                    [minimal_quantity] => 1
+                    [wholesale_price] => 643.000000
+                    [id_image] => 72-554
+                    [legend] => iPhone 8 Plus
+                    [reduction_type] => 0
+                    [stock_quantity] => 15
+                    [price_without_reduction] => 601
+                    [price_with_reduction] => 601
+                    [price_with_reduction_without_tax] => 601
+                    [total] => 601
+                    [total_wt] => 601
+                    [price_wt] => 601
+                    [reduction_applies] => 
+                    [quantity_discount_applies] => 
+                    [allow_oosp] => 0
+                    [features] => Array
+                        (
+                        )
+
+                    [attributes] => Color : Silver, Capacity : 256Go, Grade : A+
+                    [attributes_small] => Silver, 256Go, A+
+                    [rate] => 0
+                    [tax_name] => 
+                )
+
+            [1] => Array
+                (
+                    [id_product_attribute] => 0
+                    [id_product] => 98
+                    [cart_quantity] => 1
+                    [id_shop] => 2
+                    [name] => Crystal box iPhone 8 Plus
+                    [is_virtual] => 0
+                    [description_short] => 
+                    [available_now] => 
+                    [available_later] => 
+                    [id_category_default] => 6
+                    [id_supplier] => 0
+                    [id_manufacturer] => 0
+                    [on_sale] => 0
+                    [ecotax] => 0.000000
+                    [additional_shipping_cost] => 0.00
+                    [available_for_order] => 1
+                    [price] => 3.99
+                    [active] => 1
+                    [unity] => 
+                    [unit_price_ratio] => 0.000000
+                    [quantity_available] => 9999992
+                    [width] => 0.000000
+                    [height] => 0.000000
+                    [depth] => 0.000000
+                    [out_of_stock] => 2
+                    [weight] => 0.000000
+                    [date_add] => 2018-09-14 15:33:28
+                    [date_upd] => 2019-03-29 00:21:32
+                    [quantity] => 1
+                    [link_rewrite] => crystal-box-iphone-7
+                    [category] => packaging
+                    [unique_id] => 00000000980000000000173
+                    [id_address_delivery] => 173
+                    [advanced_stock_management] => 1
+                    [supplier_reference] => 
+                    [customization_quantity] => 
+                    [id_customization] => 
+                    [price_attribute] => 
+                    [ecotax_attr] => 
+                    [reference] => 85061
+                    [weight_attribute] => 
+                    [ean13] => 
+                    [upc] => 
+                    [minimal_quantity] => 1
+                    [wholesale_price] => 0.000000
+                    [id_image] => 98-212
+                    [legend] => 
+                    [reduction_type] => 0
+                    [stock_quantity] => 9999992
+                    [price_without_reduction] => 3.99
+                    [price_with_reduction] => 3.99
+                    [price_with_reduction_without_tax] => 3.99
+                    [total] => 3.99
+                    [total_wt] => 3.99
+                    [price_wt] => 3.99
+                    [reduction_applies] => 
+                    [quantity_discount_applies] => 
+                    [allow_oosp] => 0
+                    [features] => Array
+                        (
+                        )
+
+                    [rate] => 0
+                    [tax_name] => 
+                )
+
+        )
+
+    [_taxCalculationMethod:protected] => 0
+    [webserviceParameters:protected] => Array
+        (
+            [fields] => Array
+                (
+                    [id_address_delivery] => Array
+                        (
+                            [xlink_resource] => addresses
+                        )
+
+                    [id_address_invoice] => Array
+                        (
+                            [xlink_resource] => addresses
+                        )
+
+                    [id_currency] => Array
+                        (
+                            [xlink_resource] => currencies
+                        )
+
+                    [id_customer] => Array
+                        (
+                            [xlink_resource] => customers
+                        )
+
+                    [id_guest] => Array
+                        (
+                            [xlink_resource] => guests
+                        )
+
+                    [id_lang] => Array
+                        (
+                            [xlink_resource] => languages
+                        )
+
+                )
+
+            [associations] => Array
+                (
+                    [cart_rows] => Array
+                        (
+                            [resource] => cart_row
+                            [virtual_entity] => 1
+                            [fields] => Array
+                                (
+                                    [id_product] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => products
+                                        )
+
+                                    [id_product_attribute] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => combinations
+                                        )
+
+                                    [id_address_delivery] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => addresses
+                                        )
+
+                                    [quantity] => Array
+                                        (
+                                            [required] => 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [id_shop_list] => 
+    [get_shop_from_context:protected] => 1
+    [table:protected] => cart
+    [identifier:protected] => id_cart
+    [fieldsRequired:protected] => Array
+        (
+            [0] => id_currency
+            [1] => id_lang
+        )
+
+    [fieldsSize:protected] => Array
+        (
+            [secure_key] => 32
+        )
+
+    [fieldsValidate:protected] => Array
+        (
+            [id_shop_group] => isUnsignedId
+            [id_shop] => isUnsignedId
+            [id_address_delivery] => isUnsignedId
+            [id_address_invoice] => isUnsignedId
+            [id_carrier] => isUnsignedId
+            [id_currency] => isUnsignedId
+            [id_customer] => isUnsignedId
+            [id_guest] => isUnsignedId
+            [id_lang] => isUnsignedId
+            [recyclable] => isBool
+            [gift] => isBool
+            [gift_message] => isMessage
+            [mobile_theme] => isBool
+            [allow_seperated_package] => isBool
+            [date_add] => isDate
+            [date_upd] => isDate
+        )
+
+    [fieldsRequiredLang:protected] => Array
+        (
+        )
+
+    [fieldsSizeLang:protected] => Array
+        (
+        )
+
+    [fieldsValidateLang:protected] => Array
+        (
+        )
+
+    [tables:protected] => Array
+        (
+        )
+
+    [image_dir:protected] => 
+    [image_format:protected] => jpg
+    [def:protected] => Array
+        (
+            [table] => cart
+            [primary] => id_cart
+            [fields] => Array
+                (
+                    [id_shop_group] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_shop] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_address_delivery] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_address_invoice] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_carrier] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_currency] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                            [required] => 1
+                        )
+
+                    [id_customer] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_guest] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_lang] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                            [required] => 1
+                        )
+
+                    [recyclable] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [gift] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [gift_message] => Array
+                        (
+                            [type] => 3
+                            [validate] => isMessage
+                        )
+
+                    [mobile_theme] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [delivery_option] => Array
+                        (
+                            [type] => 3
+                        )
+
+                    [secure_key] => Array
+                        (
+                            [type] => 3
+                            [size] => 32
+                        )
+
+                    [allow_seperated_package] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [date_add] => Array
+                        (
+                            [type] => 5
+                            [validate] => isDate
+                        )
+
+                    [date_upd] => Array
+                        (
+                            [type] => 5
+                            [validate] => isDate
+                        )
+
+                )
+
+            [classname] => Cart
+        )
+
+    [update_fields:protected] => 
+    [force_id] => 
+)

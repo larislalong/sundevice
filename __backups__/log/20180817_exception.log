@@ -1,0 +1,23 @@
+*ERROR* 	2018/08/17 - 14:33:48: Table/alias: 'stock' non unique<br /><br /><pre>SELECT ag.`id_attribute_group`, ag.`is_color_group`, agl.`name` AS group_name, agl.`public_name` AS public_group_name,
+					a.`id_attribute`, al.`name` AS attribute_name, a.`color` AS attribute_color, product_attribute_shop.`id_product_attribute`,
+					IFNULL(stock.quantity, 0) as quantity, product_attribute_shop.`price`, product_attribute_shop.`ecotax`, product_attribute_shop.`weight`,
+					product_attribute_shop.`default_on`, pa.`reference`, product_attribute_shop.`unit_price_impact`,
+					product_attribute_shop.`minimal_quantity`, product_attribute_shop.`available_date`, ag.`group_type`, p.*, pl.*,
+					pc.id_carrier_reference AS id_carrier 
+				FROM `sundev_product_attribute` pa
+				 INNER JOIN sundev_product_attribute_shop product_attribute_shop
+		ON (product_attribute_shop.id_product_attribute = pa.id_product_attribute AND product_attribute_shop.id_shop = 1)
+				 LEFT JOIN sundev_stock_available stock
+			ON (stock.id_product = pa.id_product AND stock.id_product_attribute = IFNULL(`pa`.id_product_attribute, 0) AND stock.id_shop = 1  AND stock.id_shop_group = 0  ) INNER JOIN sundev_product p ON (pa.id_product=p.id_product)  INNER JOIN sundev_product_shop product_shop
+		ON (product_shop.id_product = p.id_product AND product_shop.id_shop = 1) LEFT JOIN sundev_stock_available stock
+			ON (stock.id_product = p.id_product AND stock.id_product_attribute = 0 AND stock.id_shop = 1  AND stock.id_shop_group = 0  ) INNER JOIN sundev_product_lang pl ON (p.`id_product` = pl.`id_product`
+					AND pl.`id_lang` = 1 AND pl.id_shop = 1 ) LEFT JOIN sundev_product_carrier pc ON (pc.id_shop = 1)  LEFT JOIN `sundev_product_attribute_combination` pac ON (pac.`id_product_attribute` = pa.`id_product_attribute`)
+				LEFT JOIN `sundev_attribute` a ON (a.`id_attribute` = pac.`id_attribute`)
+				LEFT JOIN `sundev_attribute_group` ag ON (ag.`id_attribute_group` = a.`id_attribute_group`)
+				LEFT JOIN `sundev_attribute_lang` al ON (a.`id_attribute` = al.`id_attribute`)
+				LEFT JOIN `sundev_attribute_group_lang` agl ON (ag.`id_attribute_group` = agl.`id_attribute_group`)
+				 INNER JOIN sundev_attribute_shop attribute_shop
+		ON (attribute_shop.id_attribute = a.id_attribute AND attribute_shop.id_shop = 1)
+				WHERE 1 AND al.`id_lang` = 1
+					AND agl.`id_lang` = 1 AND (product_shop.`visibility` IN ("both", "catalog"))  GROUP BY id_attribute_group, id_product_attribute
+				ORDER BY ag.`position` ASC, a.`position` ASC, agl.`name` ASC</pre> at line 791 in file classes/db/Db.php

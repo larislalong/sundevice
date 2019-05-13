@@ -1,0 +1,386 @@
+Array
+(
+    [TOKEN] => EC-98P39111BL8821440
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2019-05-03T18:15:48Z
+    [CORRELATIONID] => 238ff6cb1a980
+    [ACK] => Failure
+    [VERSION] => 204.0
+    [BUILD] => 52639313
+    [L_ERRORCODE0] => 10486
+    [L_SHORTMESSAGE0] => This transaction couldn't be completed.
+    [L_LONGMESSAGE0] => This transaction couldn't be completed. Please redirect your customer to PayPal.
+    [L_SEVERITYCODE0] => Error
+)
+Array
+(
+    [TOKEN] => EC-98P39111BL8821440
+    [PAYERID] => 5W7S9BBBWXQX8
+    [PAYMENTREQUEST_0_AMT] => 218.36
+    [PAYMENTACTION] => Sale
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 218.36
+    [L_PAYMENTREQUEST_0_NAME0] => Fee
+    [L_PAYMENTREQUEST_0_DESC0] => Paypal Fee
+    [L_PAYMENTREQUEST_0_AMT0] => 6.36
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_NAME1] => iPhone 6s Plus
+    [L_PAYMENTREQUEST_0_DESC1] => ...
+    [L_PAYMENTREQUEST_0_AMT1] => 212.00
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_NAME2] => Gift-wrapping
+    [L_PAYMENTREQUEST_0_DESC2] => Gift-wrapping...
+    [L_PAYMENTREQUEST_0_AMT2] => 0.00
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+)
+Cart Object
+(
+    [id] => 3984
+    [id_shop_group] => 1
+    [id_shop] => 2
+    [id_address_delivery] => 414
+    [id_address_invoice] => 414
+    [id_currency] => 2
+    [id_customer] => 348
+    [id_guest] => 41919
+    [id_lang] => 2
+    [recyclable] => 0
+    [gift] => 1
+    [gift_message] => 
+    [mobile_theme] => 0
+    [date_add] => 2019-05-03 19:50:39
+    [secure_key] => e7c1df614e2b019dd3eadd5930039269
+    [id_carrier] => 30
+    [date_upd] => 2019-05-03 20:14:08
+    [checkedTos] => 
+    [pictures] => 
+    [textFields] => 
+    [delivery_option] => a:1:{i:414;s:3:"30,";}
+    [allow_seperated_package] => 0
+    [_products:protected] => Array
+        (
+            [0] => Array
+                (
+                    [id_product_attribute] => 518
+                    [id_product] => 17
+                    [cart_quantity] => 1
+                    [id_shop] => 2
+                    [name] => iPhone 6s Plus
+                    [is_virtual] => 0
+                    [description_short] => 
+                    [available_now] => 
+                    [available_later] => 
+                    [id_category_default] => 14
+                    [id_supplier] => 0
+                    [id_manufacturer] => 2
+                    [on_sale] => 0
+                    [ecotax] => 0.000000
+                    [additional_shipping_cost] => 0.00
+                    [available_for_order] => 1
+                    [price] => 212
+                    [active] => 1
+                    [unity] => 
+                    [unit_price_ratio] => 0.000000
+                    [quantity_available] => 4
+                    [width] => 0.000000
+                    [height] => 0.000000
+                    [depth] => 0.000000
+                    [out_of_stock] => 0
+                    [weight] => 0.33
+                    [date_add] => 2018-08-30 09:37:38
+                    [date_upd] => 2019-04-26 18:14:07
+                    [quantity] => 1
+                    [link_rewrite] => iphone-6s-plus
+                    [category] => iphone
+                    [unique_id] => 00000000170000000518414
+                    [id_address_delivery] => 414
+                    [advanced_stock_management] => 1
+                    [supplier_reference] => 
+                    [customization_quantity] => 
+                    [id_customization] => 
+                    [price_attribute] => 212.000000
+                    [ecotax_attr] => 0.000000
+                    [reference] => 27-BAS518
+                    [weight_attribute] => 0.330000
+                    [ean13] => 
+                    [upc] => 
+                    [minimal_quantity] => 1
+                    [wholesale_price] => 175.060000
+                    [id_image] => 17-601
+                    [legend] => 
+                    [reduction_type] => 0
+                    [stock_quantity] => 4
+                    [price_without_reduction] => 212
+                    [price_with_reduction] => 212
+                    [price_with_reduction_without_tax] => 212
+                    [total] => 212
+                    [total_wt] => 212
+                    [price_wt] => 212
+                    [reduction_applies] => 
+                    [quantity_discount_applies] => 
+                    [allow_oosp] => 0
+                    [features] => Array
+                        (
+                        )
+
+                    [attributes] => Color : Pink, Capacity : 64Go, Grade : B
+                    [attributes_small] => Pink, 64Go, B
+                    [rate] => 0
+                    [tax_name] => 
+                )
+
+        )
+
+    [_taxCalculationMethod:protected] => 0
+    [webserviceParameters:protected] => Array
+        (
+            [fields] => Array
+                (
+                    [id_address_delivery] => Array
+                        (
+                            [xlink_resource] => addresses
+                        )
+
+                    [id_address_invoice] => Array
+                        (
+                            [xlink_resource] => addresses
+                        )
+
+                    [id_currency] => Array
+                        (
+                            [xlink_resource] => currencies
+                        )
+
+                    [id_customer] => Array
+                        (
+                            [xlink_resource] => customers
+                        )
+
+                    [id_guest] => Array
+                        (
+                            [xlink_resource] => guests
+                        )
+
+                    [id_lang] => Array
+                        (
+                            [xlink_resource] => languages
+                        )
+
+                )
+
+            [associations] => Array
+                (
+                    [cart_rows] => Array
+                        (
+                            [resource] => cart_row
+                            [virtual_entity] => 1
+                            [fields] => Array
+                                (
+                                    [id_product] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => products
+                                        )
+
+                                    [id_product_attribute] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => combinations
+                                        )
+
+                                    [id_address_delivery] => Array
+                                        (
+                                            [required] => 1
+                                            [xlink_resource] => addresses
+                                        )
+
+                                    [quantity] => Array
+                                        (
+                                            [required] => 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [id_shop_list] => 
+    [get_shop_from_context:protected] => 1
+    [table:protected] => cart
+    [identifier:protected] => id_cart
+    [fieldsRequired:protected] => Array
+        (
+            [0] => id_currency
+            [1] => id_lang
+        )
+
+    [fieldsSize:protected] => Array
+        (
+            [secure_key] => 32
+        )
+
+    [fieldsValidate:protected] => Array
+        (
+            [id_shop_group] => isUnsignedId
+            [id_shop] => isUnsignedId
+            [id_address_delivery] => isUnsignedId
+            [id_address_invoice] => isUnsignedId
+            [id_carrier] => isUnsignedId
+            [id_currency] => isUnsignedId
+            [id_customer] => isUnsignedId
+            [id_guest] => isUnsignedId
+            [id_lang] => isUnsignedId
+            [recyclable] => isBool
+            [gift] => isBool
+            [gift_message] => isMessage
+            [mobile_theme] => isBool
+            [allow_seperated_package] => isBool
+            [date_add] => isDate
+            [date_upd] => isDate
+        )
+
+    [fieldsRequiredLang:protected] => Array
+        (
+        )
+
+    [fieldsSizeLang:protected] => Array
+        (
+        )
+
+    [fieldsValidateLang:protected] => Array
+        (
+        )
+
+    [tables:protected] => Array
+        (
+        )
+
+    [image_dir:protected] => 
+    [image_format:protected] => jpg
+    [def:protected] => Array
+        (
+            [table] => cart
+            [primary] => id_cart
+            [fields] => Array
+                (
+                    [id_shop_group] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_shop] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_address_delivery] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_address_invoice] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_carrier] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_currency] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                            [required] => 1
+                        )
+
+                    [id_customer] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_guest] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                        )
+
+                    [id_lang] => Array
+                        (
+                            [type] => 1
+                            [validate] => isUnsignedId
+                            [required] => 1
+                        )
+
+                    [recyclable] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [gift] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [gift_message] => Array
+                        (
+                            [type] => 3
+                            [validate] => isMessage
+                        )
+
+                    [mobile_theme] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [delivery_option] => Array
+                        (
+                            [type] => 3
+                        )
+
+                    [secure_key] => Array
+                        (
+                            [type] => 3
+                            [size] => 32
+                        )
+
+                    [allow_seperated_package] => Array
+                        (
+                            [type] => 2
+                            [validate] => isBool
+                        )
+
+                    [date_add] => Array
+                        (
+                            [type] => 5
+                            [validate] => isDate
+                        )
+
+                    [date_upd] => Array
+                        (
+                            [type] => 5
+                            [validate] => isDate
+                        )
+
+                )
+
+            [classname] => Cart
+        )
+
+    [update_fields:protected] => 
+    [force_id] => 
+)
