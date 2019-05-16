@@ -1,1 +1,0 @@
-<li><a data-toggle="tab" href="#tab7" class="fontcustom1">{l s='Reviews' mod='productcomments'}</a></li>

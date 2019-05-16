@@ -73,9 +73,9 @@ class Customer extends CustomerCore
 		
 		if(!$oldStatus and $return){
 			Mail::Send(
-				(int)Context::getContext()->language->id,
+				(int)$this->id_lang,
 				'customer_activation',
-				Mail::l('Votre compte a été activer', (int)Context::getContext()->language->id),
+				(int)$this->id_lang == 1 ? 'Votre compte a été activer' : 'Your account has been activated',
 				array(
 					'{firstname}' => $this->firstname,
 					'{lastname}' => $this->lastname,

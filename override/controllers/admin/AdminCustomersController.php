@@ -17,12 +17,12 @@ class AdminCustomersController extends AdminCustomersControllerCore
 		if(Validate::isLoadedObject($currentCustomer)){
 			$newStatus = $currentCustomer->active;
 			// var_dump($oldStatus);echo '<hr><hr>';
-			// var_dump($newStatus);die;
+			// var_dump($currentCustomer);die;
 			if($return and $newStatus and $oldStatus != $newStatus){
 				Mail::Send(
-					(int)Context::getContext()->language->id,
+					(int)$currentCustomer->id_lang,
 					'customer_activation',
-					Mail::l('Votre compte a été activer', (int)Context::getContext()->language->id),
+					(int)$currentCustomer->id_lang == 1 ? 'Votre compte a été activer' : 'Your account has been activated',
 					array(
 						'{firstname}' => $currentCustomer->firstname,
 						'{lastname}' => $currentCustomer->lastname,

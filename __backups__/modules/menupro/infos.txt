@@ -1,5 +1,0 @@
-Ce module de menu avancé permet au marchand de créer plusieurs menus sur son site sans avoir à utiliser plusieurs modules. Un menu au TOP, FOOTER, LEFT, RIGHT. 
-Le marchand peut avoir un méga menu au TOP, GAUCHE, DROITE.
-
-This advanced menu module allows merchants to create multiple menus on their site without having to use multiple modules. A menu at the TOP, FOOTER, LEFT, RIGHT.
-The merchant can have a mega menu TOP, LEFT, RIGHT.

@@ -1,8 +1,0 @@
-*ERROR* 	2018/09/14 - 16:58:56: Unknown column 'pa.id_product' in 'on clause'<br /><br /><pre>
-			SELECT 
-				p.`reference` as reference_sundevice,
-				pl.`name`as model
-			FROM `sundev_product` p
-			INNER JOIN `sundev_product_lang` pl ON (pl.`id_product` = pa.`id_product`)
-			WHERE pl.id_lang = 1 AND  p.id_category_default = 6
-		</pre> at line 791 in file classes/db/Db.php

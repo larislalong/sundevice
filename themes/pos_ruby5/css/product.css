@@ -248,6 +248,9 @@ a.fancybox-nav {
         background-size: 80px 50px !important;
         background-position: center center !important;
       }
+      #attributes .attribute_list #color_to_pick_list li a.color_pick[title="Neuf"] {
+        background-image: url(../../../img/co/neuf.png) !important;
+      }
       #attributes .attribute_list #color_to_pick_list li a.color_pick img {
           display: block;
           height: 100%;
@@ -551,7 +554,9 @@ table.table-product-discounts {
 
 /* prices */
 .content_prices {
-  margin: 21px 0 7px; }
+  margin: 21px 0 7px;
+  position: relative;
+  }
 
 .discount {
   display: none; }
@@ -559,35 +564,65 @@ table.table-product-discounts {
 .our_price_display {
   color: #d82e2e;
   display: inline-block;
-  margin-right: 10px;
-  font-style: inherit; }
+  margin: 0 !important;
+  font-style: inherit;
+  background: #D6D4D4;
+  border-radius: 20px 0 0 20px;
+  line-height: 30px;
+  padding: 0 15px;
+  }
   .our_price_display .price {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-    color: #262626; }
+    font-size: 25px;
+    /* line-height: 35px; */
+    /* color: #262626; */
+    padding: 0;
+    font-style: normal;
+    margin: 0;
+    line-height: 36px;
+    display: block;
+    }
 
 #old_price {
   font-size: 13px;
   text-decoration: line-through;
+  line-height: 30px !important;
   display: inline-block;
-  line-height: 23px;
-  margin: 0; }
+  margin: 0 !important;
+  font-style: inherit;
+  background: #000;
+  border-radius: 0 20px 20px 0;
+  padding: 0 15px;
+  position: relative;
+  left: -25px;
+  top: -1.5px;
+  z-index: 1;
+  }
 
 #reduction_percent,
 #reduction_amount {
-  margin-right: 10px;
-  padding: 1px 2px;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 23px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 45px;
   color: #fff;
-  /* background: #f13340; */
+  background: #f13340;
   border: 1px solid #dd2e2e;
-  font-style: inherit; }
+  font-style: inherit;
+  position: relative;
+  right: 14px;
+  top: -2px;
+  border-radius: 50%;
+  width: 45px;
+  text-align: center;
+  z-index: 2;
+  }
   #reduction_percent span,
   #reduction_amount span {
-    display: block; }
+    display: block;
+    color: #fff;
+    }
   .hide-left-column.hide-right-column #reduction_percent, .hide-left-column.hide-right-column
   #reduction_amount {
     display: inline-block; }

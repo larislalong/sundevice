@@ -1,8 +1,0 @@
-.oneline { display: block; word-wrap: break-word; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
-
-#product .socialsharing_product { overflow: hidden; margin-top: 15px; }
-#product .socialsharing_product label { float: left; line-height: 37px; text-transform: uppercase; font-style: normal; margin: 5px 15px 0 0; }
-#product .socialsharing_product .btn-default { overflow: hidden; -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; text-align: center; border: 2px solid #e1e1e1; float: left; color: #898989; padding: 0; margin: 5px 15px 0 0; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%; }
-#product .socialsharing_product .btn-default i { font-size: 14px; display: block; float: left; line-height: 33px; color: inherit; min-width: 33px; text-align: center; }
-#product .socialsharing_product .btn-default span { display: block; float: left; color: white; font-size: 0; line-height: 33px; font-weight: 700; -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; }
-#product .socialsharing_product .btn-default:hover { color: white; }
