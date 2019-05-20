@@ -581,11 +581,12 @@ table.table-product-discounts {
     margin: 0;
     line-height: 36px;
     display: block;
+    letter-spacing: -1px;
     }
 
 #old_price {
   font-size: 13px;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   line-height: 30px !important;
   display: inline-block;
   margin: 0 !important;
@@ -594,27 +595,52 @@ table.table-product-discounts {
   border-radius: 0 20px 20px 0;
   padding: 0 15px;
   position: relative;
-  left: -25px;
   top: -1.5px;
   z-index: 1;
+  color: #ddd;
   }
+
+#old_price span {
+  color: #ddd;
+  font-size: 17px;
+  letter-spacing: -1px;
+  }
+#old_price::before, #old_price::after {
+    content: '';
+    display: block;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+#old_price::before {
+    border-bottom: 1px solid #d82e2e;
+    -webkit-transform: skewY(-20deg);
+    transform: skewY(-20deg);
+}
+#old_price::after {
+    border-bottom: 1px solid #d82e2e;
+    -webkit-transform: skewY(20deg);
+    transform: skewY(20deg);
+}
 
 #reduction_percent,
 #reduction_amount {
   margin: 0;
-  padding: 0;
+  padding: 0 5px;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 12px;
   line-height: 45px;
   color: #fff;
   background: #f13340;
   border: 1px solid #dd2e2e;
   font-style: inherit;
   position: relative;
-  right: 14px;
-  top: -2px;
-  border-radius: 50%;
-  width: 45px;
+  margin-left: -10px;
+  margin-right: -10px;
+  top: -5px;
+  border-radius: 10px;
+  /* width: 45px; */
   text-align: center;
   z-index: 2;
   }
@@ -622,6 +648,8 @@ table.table-product-discounts {
   #reduction_amount span {
     display: block;
     color: #fff;
+    white-space: nowrap;
+    word-break: keep-all;
     }
   .hide-left-column.hide-right-column #reduction_percent, .hide-left-column.hide-right-column
   #reduction_amount {
